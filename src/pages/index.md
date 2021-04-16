@@ -1,6 +1,7 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+title: Blaze Magic
+image: /img/079a5221.png
+heading: Blaze da mad magic man
+subheading: Yea bra he fo real yo!
 ---
