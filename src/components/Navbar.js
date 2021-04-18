@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className="container">
         <div className="navbar-logo">
           <Link to="/">
-            <span>BLAZE</span>
+            <span>A Mongoose (Red Pill) Website</span>
           </Link>
         </div>
       </div>
