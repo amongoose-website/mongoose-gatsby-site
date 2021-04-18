@@ -1,6 +1,6 @@
 {
-  "name": "blaze-magic-site",
-  "description": "Blaze Magic Gatsby Site",
+  "name": "mongoose-site",
+  "description": "The A Mongoose Gatsby Site",
   "version": "0.1.0",
   "author": "Joshua Grimmett",
   "dependencies": {
