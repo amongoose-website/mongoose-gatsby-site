@@ -1,12 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 
-import Viewer, { Worker } from '@phuocng/react-pdf-viewer';
-
-import '@phuocng/react-pdf-viewer/cjs/react-pdf-viewer.css';
+import { Document, Page, pdfjs } from 'react-pdf'
 
 import Layout from '../components/Layout'
+
+import book from '../img/book1.pdf'
+
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 export const BookPageTemplate = ({
   title,
@@ -14,22 +16,48 @@ export const BookPageTemplate = ({
   body,
   bookPDF
 }) => {
-    console.log(bookPDF);
+	const [numPages, setNumPages] = useState(null)
+  	const [pageNumber, setPageNumber] = useState(1)
+
+  	function onDocumentLoadSuccess({ numPages }) {
+    	setNumPages(numPages)
+	}
+
+	function nextPage() {
+		setPageNumber(pageNumber + 1);
+	}
+
+	function setPage(e) {
+		let page = e.target.value
+		if (page < 1 || page > numPages) {
+			page = 1;
+		}
+		setPageNumber(Number(page))
+	}
+
     return (
-  	<main
-    	role="main" 
-    	className="container">
-      	<h1>{title}</h1>
-        <h2>{description}</h2>
-        <div dangerouslySetInnerHTML={{ __html: body }} />
-        <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.2.228/build/pdf.worker.min.js">
-            <div style={{ height: '750px' }}>
-                <Viewer fileUrl={bookPDF}/>
-            </div>
-        </Worker>
-        
-  </main>
-)}
+  	  	<main
+      		role="main" 
+      		className="container">
+        	
+			<h1>{title}</h1>
+          	<div dangerouslySetInnerHTML={{ __html: body }} />
+			<button
+				onClick={nextPage}>
+					Next Page
+				</button>
+			<input type="text" value={pageNumber} onChange={setPage}/>
+			<Document
+            	file={book}
+				onLoadSuccess={onDocumentLoadSuccess}>
+            	<Page pageNumber={pageNumber}/>
+				<Page pageNumber={pageNumber + 1}/>
+			</Document>
+			<p>Page {pageNumber} of {numPages}</p>
+
+      </main>
+    )
+}
 
 BookPageTemplate.propTypes = {
   title: PropTypes.string,
@@ -47,7 +75,7 @@ const IndexPage = ({ data }) => {
         title={frontmatter.title}
         description={frontmatter.description}
         body={data.markdownRemark.html}
-        bookPDF={frontmatter.bookPDF}
+        bookPDF={frontmatter.bookPDF.absolutePath}
       />
     </Layout>
   )
@@ -69,7 +97,10 @@ export const pageQuery = graphql`
       frontmatter {
         title
         description
-        bookPDF
+        bookPDF {
+		  relativePath
+          absolutePath
+        }
       }
     }
   }

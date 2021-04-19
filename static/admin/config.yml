@@ -12,35 +12,6 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "main_pages"
-    label: "Main Pages"
-    folder: "src/pages/main"
-    create: true
-    slug: "{{slug}}"
-    fields:
-    - {label: "Template Key", name: "templateKey", widget: hidden, default: "page-key"}
-    - {label: "Title", name: "title", widget: "string"}
-    - {label: "Publish Date", name: "date", widget: "datetime"}
-    - {label: "Description", name: "description", widget: "text"}
-    - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
-    - {label: "Featured Image", name: "featuredimage", widget: image}
-    - {label: "Body", name: "body", widget: "markdown"}
-
-  - name: "blog"
-    label: "Blog"
-    folder: "src/pages/blog"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-    - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
-    - {label: "Title", name: "title", widget: "string"}
-    - {label: "Publish Date", name: "date", widget: "datetime"}
-    - {label: "Description", name: "description", widget: "text"}
-    - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
-    - {label: "Featured Image", name: "featuredimage", widget: image}
-    - {label: "Body", name: "body", widget: "markdown"}
-    - {label: "Tags", name: "tags", widget: "list"}
-  
   - name: "charts"
     label: "Charts"
     folder: "src/pages/charts"
@@ -67,8 +38,8 @@ collections:
     - {label: "Featured Image", name: "featuredimage", widget: image, required: false}
     - {label: "Body", name: "body", widget: "markdown"}
 
-  - name: "core_pages"
-    label: "Core Pages"
+  - name: "pages"
+    label: "Main Pages"
     files:
       - file: "src/pages/index.md"
         label: "Landing Page"
@@ -80,14 +51,3 @@ collections:
           - {label: Heading, name: heading, widget: string}
           - {label: Subheading, name: subheading, widget: string}
           - {label: Next, name: nextPage, widget: string, default: "/preface"}
-
-      - file: "src/pages/preface.md"
-        label: "Preface"
-        name: "preface"
-        fields: 
-          - {label: "Template Key", name: "templateKey", widget: hidden, default: "preface-page"}
-          - {label: Title, name: title, widget: string, default: Preface}
-          - {label: Image, name: image, widget: image}
-          - {label: Heading, name: heading, widget: string}
-          - {label: Subheading, name: subheading, widget: string}
-          - {label: Next, name: nextPage, widget: string}
