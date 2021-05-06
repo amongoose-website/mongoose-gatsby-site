@@ -8,35 +8,19 @@ backend:
     uploadMedia: '[skip ci] Upload “{{path}}”'
     deleteMedia: '[skip ci] Delete “{{path}}”'
 
-media_folder: static/img
+media_folder: static/
 public_folder: /img
 
 collections:
-  - name: "charts"
-    label: "Charts"
-    folder: "src/pages/charts"
-    create: true
-    slug: "{{slug}}"
-    fields: 
-    - {label: "Template Key", name: "templateKey", widget: "hidden", default: "chart1"}
-    - {label: "Title", name: "title", widget: "string"}
-    - {label: "Description", name: "description", widget: "text"}
-    - {label: "Chart", name: "chartPDF", widget: file}
-    - {label: "Featured Image", name: "featuredimage", widget: image, required: false}
-    - {label: "Body", name: "body", widget: "markdown"}
-
   - name: "books"
     label: "Books"
     folder: "src/pages/books"
     create: true
     slug: "{{slug}}"
     fields:
-    - {label: "Template Key", name: "templateKey", widget: hidden, default: "book1"}
+    - {label: "Template Key", name: "templateKey", widget: hidden, default: "book-page"}
     - {label: "Title", name: "title", widget: string}
-    - {label: "Description", name: "description", widget: "text"}
     - {label: "Book", name: "bookPDF", widget: file}
-    - {label: "Featured Image", name: "featuredimage", widget: image, required: false}
-    - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "pages"
     label: "Main Pages"
@@ -47,7 +31,3 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
           - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image, required: false}
-          - {label: Heading, name: heading, widget: string}
-          - {label: Subheading, name: subheading, widget: string}
-          - {label: Next, name: nextPage, widget: string, default: "/preface"}
