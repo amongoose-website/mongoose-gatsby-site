@@ -1,0 +1,23 @@
+$navbar-colour: $red-pill-colour;
+$navbar-gradient: $red-pill-gradient;
+$navbar-text-colour: white;
+
+.header__navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: $navbar-colour;
+    background: $navbar-gradient;
+    color: $navbar-text-colour;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2rem;
+    padding: 2rem;
+    font-family: $heading-font;
+}
+
+.header__navbar a, .header__navbar a:hover {
+    text-decoration: none;
+    color: inherit;
+}

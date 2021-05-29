@@ -1,0 +1,32 @@
+$menu-item-padding: 2rem 4rem;
+$menu-item-border: 5px solid black;
+
+.menu {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-column {
+    margin: 0 3rem;
+}
+
+.menu-item {
+    padding: $menu-item-padding;
+    text-align: center;
+    border: $menu-item-border;
+    margin: 3rem 0;
+}
+
+.menu-item .menu-item__label {
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.menu-item a {
+    color: inherit;
+    text-decoration: none
+}
