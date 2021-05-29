@@ -1,4 +1,5 @@
 ---
-templateKey: index-page
-title: A Mongoose Website
+templateKey: book-page  
+bookPDF: /assets/books/the_trunk.pdf
+title: Introduction
 ---

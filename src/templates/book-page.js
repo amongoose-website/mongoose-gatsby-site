@@ -4,6 +4,7 @@ import { graphql } from 'gatsby'
 
 
 import Layout from '../components/Layout'
+import PDFDocument from '../components/PDFDocument'
 
 export const BookPageTemplate = ({
   title,
@@ -11,9 +12,9 @@ export const BookPageTemplate = ({
   bookPDF
 }) => {
     return (
-		<>
-			<img src={bookPDF}/>
-		</>
+		<div className="content">
+        <PDFDocument pdf={bookPDF.publicURL}/>
+		</div>
     )
 }
 
@@ -23,11 +24,11 @@ BookPageTemplate.propTypes = {
   body: PropTypes.node.isRequired
 }
 
-const IndexPage = ({ data }) => {
+const BookPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
-
   return (
-    <Layout>
+    <Layout
+      pageTitle={frontmatter.title}>
       <BookPageTemplate
         title={frontmatter.title}
         body={data.markdownRemark.html}
@@ -43,7 +44,7 @@ BookPageTemplate.propTypes = {
     }),
   }
 
-export default IndexPage
+export default BookPage
 
 export const pageQuery = graphql`
   query BlogPostByID($id: String!) {
@@ -53,11 +54,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         bookPDF {
-          childImageSharp {
-			  fluid {
-				  src
-			  }
-		  }
+          publicURL
         }
       }
     }

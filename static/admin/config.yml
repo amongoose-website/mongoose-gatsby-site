@@ -29,5 +29,5 @@ collections:
         label: "Landing Page"
         name: "index"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "book-page"}
           - {label: Title, name: title, widget: string}

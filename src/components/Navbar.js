@@ -5,7 +5,7 @@ import { Link } from 'gatsby'
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav className="header__navbar">
       <div className="container">
         <div className="navbar-logo">
           <Link to="/">

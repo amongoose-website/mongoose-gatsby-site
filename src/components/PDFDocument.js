@@ -4,7 +4,7 @@ import { Document, Page, pdfjs } from 'react-pdf'
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-const PDFDocument = (pdf) => {
+const PDFDocument = ({pdf}) => {
     const [numPages, setNumPages] = useState(null)
   	const [pageNumber, setPageNumber] = useState(1)
 
@@ -13,32 +13,50 @@ const PDFDocument = (pdf) => {
 	}
 
 	function nextPage() {
-		setPageNumber(pageNumber + 1);
+		setPage(pageNumber + 1);
+	}
+	
+	function previousPage() {
+		setPage(pageNumber - 1);
 	}
 
-	function setPage(e) {
-		let page = e.target.value
+	function inputSetPage(e) {
+		let page = e.target.value;
+		setPage(page);
+	}
+
+	function setPage(page) {
 		if (page < 1 || page > numPages) {
 			page = 1;
 		}
 		setPageNumber(Number(page))
 	}
-    
     return (
-        <>
-            <button
-				onClick={nextPage}>
+        <div className="pdf-document">
+            <div className="pdf-document__controls">
+				<button
+					onClick={previousPage}>
+						Previous Page
+					</button>
+				<input type="text" value={pageNumber} onChange={inputSetPage}/>
+				<button
+					onClick={nextPage}>
 					Next Page
 				</button>
-			<input type="text" value={pageNumber} onChange={setPage}/>
-			<Document
-            	file={bookPDF.relativePath}
+			
+			</div>
+			<Document 
+				className="pdf-document__pages"
+            	file={pdf}
 				onLoadSuccess={onDocumentLoadSuccess}>
-            	<Page pageNumber={pageNumber}/>
-				<Page pageNumber={pageNumber + 1}/>
+            	<Page className="pdf-document__page" pageNumber={pageNumber}/>
+				{ numPages && (pageNumber < numPages) && 
+				<Page 
+					className="pdf-document__page" 
+					pageNumber={pageNumber + 1}/> }
 			</Document>
 			<p>Page {pageNumber} of {numPages}</p>
-        </>
+        </div>
     )
 }
 
