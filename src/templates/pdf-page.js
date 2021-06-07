@@ -9,7 +9,6 @@ import '../components/PDF/PDF.css'
 
 export const PDFPageTemplate = ({
   title,
-  body,
   pdf
 }) => {
     const metaData = { id: pdf.id, fileName: title }
@@ -29,7 +28,6 @@ export const PDFPageTemplate = ({
 PDFPageTemplate.propTypes = {
   title: PropTypes.string,
   pdf: PropTypes.object,
-  body: PropTypes.node.isRequired
 }
 
 const PDFPage = ({ data }) => {
@@ -39,7 +37,7 @@ const PDFPage = ({ data }) => {
       pageTitle={frontmatter.title}>
       <PDFPageTemplate
         title={frontmatter.title}
-        body={data.markdownRemark.html}
+        // body={data.markdownRemark.html}
         pdf={frontmatter.pdf}
       />
     </Layout>
@@ -58,7 +56,6 @@ export const pageQuery = graphql`
   query BlogPostByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
-      html
       frontmatter {
         title
         pdf {
