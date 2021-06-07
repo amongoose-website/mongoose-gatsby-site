@@ -28,7 +28,7 @@ class ViewSDKClient {
     previewFile(divId, viewerConfig) {
         const config = {
             /* Pass your registered client id */
-            clientId: "8c0cd670273d451cbc9b351b11d22318",
+            clientId: process.env.ADOBE_API_KEY || 'bdb1295aee484d2e9848f8a99b01716a',
         };
         if (divId) { /* Optional only for Light Box embed mode */
             /* Pass the div id in which PDF should be rendered */
