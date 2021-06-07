@@ -8,26 +8,26 @@ backend:
     uploadMedia: '[skip ci] Upload “{{path}}”'
     deleteMedia: '[skip ci] Delete “{{path}}”'
 
-media_folder: static/
+media_folder: static/assets
 public_folder: /img
 
 collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "src/pages/index.md"
+        label: "Trunk"
+        name: "index"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "pdf-page"}
+          - {label: Title, name: title, widget: string}
+          - {label: PDF, name: pdf, widget: file}
   - name: "books"
     label: "Books"
     folder: "src/pages/books"
     create: true
     slug: "{{slug}}"
     fields:
-    - {label: "Template Key", name: "templateKey", widget: hidden, default: "book-page"}
+    - {label: "Template Key", name: "templateKey", widget: hidden, default: "pdf-page"}
     - {label: "Title", name: "title", widget: string}
     - {label: "Book", name: "bookPDF", widget: file}
-
-  - name: "pages"
-    label: "Main Pages"
-    files:
-      - file: "src/pages/index.md"
-        label: "Landing Page"
-        name: "index"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "book-page"}
-          - {label: Title, name: title, widget: string}
