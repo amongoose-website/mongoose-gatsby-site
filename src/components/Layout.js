@@ -20,6 +20,7 @@ const TemplateWrapper = ({ children, pageTitle }) => {
         
         <link rel="preconnect" href="https://fonts.gstatic.com"/>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,300;1,400&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet"/>
+        <script type="text/javascript" src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
 
         <link
           rel="apple-touch-icon"
