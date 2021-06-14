@@ -29,5 +29,5 @@ collections:
     slug: "{{slug}}"
     fields:
     - {label: "Template Key", name: "templateKey", widget: hidden, default: "pdf-page"}
-    - {label: "Title", name: "title", widget: string}
-    - {label: "Book", name: "bookPDF", widget: file}
+    - {label: "Title", name: "title", widget: string, required: true}
+    - {label: PDF, name: pdf, widget: file, required: true}
