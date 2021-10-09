@@ -1,2 +1,8 @@
-$red-pill-gradient: linear-gradient(45deg, rgba(0,0,36,1) 0%, rgba(192,22,0,1) 100%);
-$red-pill-colour: rgb(192, 22, 0);
+$red-pill-gradient: linear-gradient(180deg, #A70524 0%, #BF0000 100%);
+$red-pill-colour: #CE1135;
+
+$navbar-colour: $red-pill-colour;
+$navbar-gradient: $red-pill-gradient;
+$navbar-text-colour: white;
+$navbar-logo-font: $heading-font;
+$navbar-links-font: $body-font;
