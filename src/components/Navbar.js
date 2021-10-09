@@ -1,7 +1,5 @@
 import React from 'react'
 import { Link } from 'gatsby'
-// import github from '../img/github-icon.svg'
-// import logo from '../img/logo.svg'
 
 const Navbar = () => {
   return (
@@ -13,7 +11,7 @@ const Navbar = () => {
       </div>  
       <div className="navbar__links">
         <ul>
-          <li>The Choice</li>
+          <li><Link to="/the-choice">The Choice</Link></li>
           <li>Trending News</li>
           <li>Charts</li>
           <li>Videos</li>
