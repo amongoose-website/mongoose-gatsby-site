@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ViewSDKClient from './ViewSDKClient';
 
-class FullWindow extends Component {
+class FullWindowPDF extends Component {
     constructor(data) {
         super(data)
 
@@ -38,6 +38,8 @@ class FullWindow extends Component {
         FIT_PAGE displays the entire page in the current view pane so that no scrolling is required.
         Note that end users can toggle the mode via the Fit Width button on the page controls bar (if present). */
         defaultViewMode: "",
+
+        enableLinearization: true
     };
 
     componentDidMount() {
@@ -54,4 +56,4 @@ class FullWindow extends Component {
     }
 }
 
-export default FullWindow
+export default FullWindowPDF
