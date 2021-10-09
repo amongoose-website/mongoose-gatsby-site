@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet'
 
 import '../assets/scss/main.scss'
 
+import Navbar from './Navbar'
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 
@@ -52,7 +53,10 @@ const TemplateWrapper = ({ children, pageTitle }) => {
           content={`${withPrefix('/')}img/og-image.jpg`}
         />
       </Helmet>
-      {children}
+      <Navbar/>
+      <div class="circuit-board">
+        {children}
+      </div>
     </div>
   )
 }
