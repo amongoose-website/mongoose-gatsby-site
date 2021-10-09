@@ -1,0 +1,28 @@
+.pageHeading {
+    padding-top: 5rem;
+}
+
+.pageHeading > span {
+    text-align: center;
+    font-family: $heading-font;
+    text-transform: uppercase;
+    display: block;
+}
+
+.pageHeading .preheading {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: $red-pill-colour;
+}
+
+.pageHeading .heading {
+    font-size: 4rem;
+    font-weight: 600;
+    color: $red-pill-colour;
+}
+
+.pageHeading .subheading {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: black;
+}
