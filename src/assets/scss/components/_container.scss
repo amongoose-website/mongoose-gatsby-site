@@ -1,0 +1,10 @@
+.container {
+    width: 80%;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        padding-top: 2rem;
+        width: 60%;
+    }
+}

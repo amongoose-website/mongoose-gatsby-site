@@ -1,0 +1,11 @@
+.primaryButton {
+    cursor: pointer;
+    border: none;
+    padding: 0.8rem 2rem;
+    color: #fff;
+    font-family: $heading-font;
+    font-weight: 600;
+    font-size: 1rem;
+    background: $navbar-gradient;
+    text-transform: uppercase;    
+}
