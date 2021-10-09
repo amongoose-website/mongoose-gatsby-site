@@ -54,7 +54,7 @@ const TemplateWrapper = ({ children, pageTitle }) => {
         />
       </Helmet>
       <Navbar/>
-      <div class="circuit-board">
+      <div className="circuit-board">
         {children}
       </div>
     </div>
