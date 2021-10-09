@@ -1,5 +1,7 @@
 ---
 templateKey: pdf-page
-title: The Choice — Forward
+content:
+    heading: The Choice
+    subheading: Forward
 pdf: /img/THE-CHOICE-FORWARD.pdf
 ---

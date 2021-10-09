@@ -1,5 +1,6 @@
 ---
 templateKey: pdf-page
-title: DVD Covers
+content:
+    heading: DVD Covers
 pdf: /img/dvd-covers.pdf
 ---
