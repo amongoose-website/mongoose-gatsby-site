@@ -4,23 +4,27 @@ import { graphql } from 'gatsby'
 
 
 import Layout from '../components/Layout'
-import FullWindow from '../components/PDF/FullWindow'
+import ContainerPDF from '../components/PDF/ContainerPDF'
 import '../components/PDF/PDF.css'
 
 export const PDFPageTemplate = ({
-  title,
+  content,
   pdf
 }) => {
-    const metaData = { id: pdf.id, fileName: title }
+    const metaData = { id: pdf.id, fileName: pdf.name.split('-').join(' ') }
 
     return (
-        <>
-            <div id="root" style={{height: "100vh"}}>
-                <FullWindow pdf={pdf.publicURL} metaData={metaData}></FullWindow>
+      <>
+        <div id="root">
+            <div className="pageHeading">
+              <span className="heading">{content.heading}</span>
+              <span className="subheading">{content.subheading}</span>
             </div>
-            <script 
-                type="text/javascript" 
-                src="https://documentcloud.adobe.com/view-sdk/main.js"/>
+            <ContainerPDF pdf={pdf.publicURL} metaData={metaData}></ContainerPDF>
+        </div>
+        <script 
+            type="text/javascript" 
+            src="https://documentcloud.adobe.com/view-sdk/main.js"/>
         </>
     )
 }
@@ -32,11 +36,12 @@ PDFPageTemplate.propTypes = {
 
 const PDFPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
+  const { content } = frontmatter
   return (
     <Layout
-      pageTitle={frontmatter.title}>
+      pageTitle={content.heading}>
       <PDFPageTemplate
-        title={frontmatter.title}
+        content={content}
         // body={data.markdownRemark.html}
         pdf={frontmatter.pdf}
       />
@@ -53,11 +58,15 @@ PDFPageTemplate.propTypes = {
 export default PDFPage
 
 export const pageQuery = graphql`
-  query BlogPostByID($id: String!) {
+  query PDFPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       frontmatter {
-        title
+        content {
+          preheading
+          heading
+          subheading
+        }
         pdf {
           publicURL
           id
