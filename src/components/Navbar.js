@@ -5,13 +5,19 @@ import { Link } from 'gatsby'
 
 const Navbar = () => {
   return (
-    <nav className="header__navbar">
-      <div className="container">
-        <div className="navbar-logo">
-          <Link to="/">
-            <span>A Mongoose (Red Pill) Website</span>
-          </Link>
-        </div>
+    <nav className="navbar">
+      <div className="navbar__logo">
+        <Link to="/">
+          <span>Amongoose</span>
+        </Link>
+      </div>  
+      <div className="navbar__links">
+        <ul>
+          <li>The Choice</li>
+          <li>Trending News</li>
+          <li>Charts</li>
+          <li>Videos</li>
+        </ul>
       </div>
     </nav>
   )

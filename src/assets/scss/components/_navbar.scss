@@ -1,23 +1,48 @@
-$navbar-colour: $red-pill-colour;
-$navbar-gradient: $red-pill-gradient;
-$navbar-text-colour: white;
 
-.header__navbar {
-    position: sticky;
-    top: 0;
-    left: 0;
-    right: 0;
+.navbar__logo {
+    background-color: #fff;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.navbar__links {
     background-color: $navbar-colour;
     background: $navbar-gradient;
     color: $navbar-text-colour;
     text-transform: uppercase;
-    font-weight: 700;
-    font-size: 2rem;
-    padding: 2rem;
-    font-family: $heading-font;
+    font-weight: 500;
+    padding: 1.5rem;
 }
 
-.header__navbar a, .header__navbar a:hover {
+.navbar__links ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.navbar__links ul li {
+    padding: 0 1rem;
+    font-family: $navbar-links-font;
+    font-size: 1rem;
+    border-right: solid 1.5px white;
+}
+
+.navbar__links ul li:last-child {
+    padding: 0 1rem;
+    font-family: $navbar-links-font;
+    font-size: 1rem;
+    border-right: none;
+}
+
+.navbar__logo span {
+    font-family: $navbar-logo-font;
+}
+
+.navbar a, .navbar a:hover {
     text-decoration: none;
     color: inherit;
 }
