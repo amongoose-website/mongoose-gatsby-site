@@ -5,6 +5,8 @@ import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 import FullWindowPDF from '../components/PDF/FullWindowPDF'
+import Button from '../components/Button'
+import Icon from '../components/Icon'
 import '../components/PDF/PDF.css'
 
 export const PDFPageTemplate = ({
@@ -12,13 +14,15 @@ export const PDFPageTemplate = ({
   pdf
 }) => {
     const metaData = { id: pdf.id, fileName: pdf.name.split('-').join(' ') }
-
     return (
       <>
         <div id="root">
             <div className="pageHeading">
               <span className="heading">{content.heading}</span>
               <span className="subheading">{content.subheading}</span>
+            </div>
+            <div style={{'paddingBottom': 1 + 'rem'}}>
+              <Button href={pdf.publicURL} download={metaData.fileName + '.pdf'} text="Download PDF"/>
             </div>
             <FullWindowPDF pdf={pdf.publicURL} metaData={metaData}></FullWindowPDF>
         </div>
