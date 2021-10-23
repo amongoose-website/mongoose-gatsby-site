@@ -1,5 +1,10 @@
 .pageHeading {
     padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+.pageHeading__index {
+    padding: 2rem 0;
 }
 
 .pageHeading > span {
@@ -10,19 +15,39 @@
 }
 
 .pageHeading .preheading {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 600;
     color: $red-pill-colour;
 }
 
 .pageHeading .heading {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 600;
+    padding-bottom: 1rem;
     color: $red-pill-colour;
 }
 
+@media (min-width: 500px) {
+    .pageHeading {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    .pageHeading .heading {
+        font-size: 4rem;
+        font-weight: 600;
+        color: $red-pill-colour;
+    }
+
+    .pageHeading .subheading {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: black;
+    }
+}
+
 .pageHeading .subheading {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 600;
     color: black;
 }
