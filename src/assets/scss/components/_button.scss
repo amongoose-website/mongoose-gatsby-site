@@ -11,6 +11,11 @@
     text-transform: uppercase;    
 }
 
+.primaryButton a {
+    color: inherit;
+    text-decoration: none;
+}
+
 .secondaryButton {
     display: inline-flex;
     align-items: center;
