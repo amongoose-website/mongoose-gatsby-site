@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 
 
 import Layout from '../components/Layout'
-import ContainerPDF from '../components/PDF/ContainerPDF'
+import FullWindowPDF from '../components/PDF/FullWindowPDF'
 import '../components/PDF/PDF.css'
 
 export const PDFPageTemplate = ({
@@ -20,7 +20,7 @@ export const PDFPageTemplate = ({
               <span className="heading">{content.heading}</span>
               <span className="subheading">{content.subheading}</span>
             </div>
-            <ContainerPDF pdf={pdf.publicURL} metaData={metaData}></ContainerPDF>
+            <FullWindowPDF pdf={pdf.publicURL} metaData={metaData}></FullWindowPDF>
         </div>
         <script 
             type="text/javascript" 
