@@ -2,9 +2,16 @@ import React from 'react';
 
 import { Link } from 'gatsby';
 
-const Button = ({link, text}) => (
+const Button = ({link, text, href, download}) => (
     <button className="primaryButton">
-        <Link to={link}>{text}</Link>
+        { link && <Link to={link}>
+            {text}
+        </Link> }
+        {
+            href && <a href={href} download={download}>
+                {text}
+            </a>
+        }
     </button>
 )
 
