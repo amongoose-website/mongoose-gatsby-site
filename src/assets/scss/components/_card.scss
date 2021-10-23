@@ -14,6 +14,10 @@
     margin-bottom: 2rem;
 }
 
+.book-card p.description {
+    padding-bottom: 1rem;
+}
+
 @media (min-width: 500px) {
     .book-card {
         align-items: center;
