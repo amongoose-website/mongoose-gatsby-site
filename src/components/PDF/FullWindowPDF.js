@@ -20,10 +20,10 @@ class FullWindowPDF extends Component {
         showLeftHandPanel: true,
 
         /* If true, a download button appears in the overflow menu on the top bar. */
-        showDownloadPDF: false,
+        showDownloadPDF: true,
 
         /* If true, then a print PDF option appears in the overflow menu on the top bar. */
-        showPrintPDF: false,
+        showPrintPDF: true,
 
         /* If true, the page control toolbar displays. */
         showPageControls: true,
