@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
-import InlinePDF from '../components/PDF/InlinePDF'
+import FullWindowPDF from '../components/PDF/FullWindowPDF'
 import '../components/PDF/PDF.css'
 
 export const IndexPageTemplate = ({
@@ -16,12 +16,12 @@ export const IndexPageTemplate = ({
     return (
         <>
             <div id="root">
-                <div className="pageHeading">
+                <div className="pageHeading pageHeading__index">
                   <span className="preheading">{content.preheading}</span>
                   <span className="heading">{content.heading}</span>
                   <span className="subheading">{content.subheading}</span>
                 </div>
-                <InlinePDF pdf={pdf.publicURL} metaData={metaData}></InlinePDF>
+                <FullWindowPDF pdf={pdf.publicURL} metaData={metaData}></FullWindowPDF>
             </div>
             <script 
                 type="text/javascript" 
