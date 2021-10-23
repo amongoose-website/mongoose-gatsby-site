@@ -3,9 +3,9 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 const Button = ({link, text}) => (
-    <Link to={link}>
-        <button className="primaryButton">{text}</button>
-    </Link>
+    <button className="primaryButton">
+        <Link to={link}>{text}</Link>
+    </button>
 )
 
 export default Button
