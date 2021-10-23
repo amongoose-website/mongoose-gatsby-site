@@ -1,4 +1,5 @@
 .primaryButton {
+    display: inline;
     cursor: pointer;
     border: none;
     padding: 0.8rem 2rem;
@@ -8,4 +9,25 @@
     font-size: 1rem;
     background: $navbar-gradient;
     text-transform: uppercase;    
+}
+
+.secondaryButton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    color: black;
+    font-family: $heading-font;
+    font-weight: 600;
+    font-size: 0.8rem;
+    background: none;
+    text-transform: uppercase;    
+}
+
+.button__icon {
+    .icon {
+        padding-right: 10px;
+    }
 }
