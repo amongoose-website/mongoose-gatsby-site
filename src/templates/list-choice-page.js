@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 
 
 import Layout from '../components/Layout'
-import Card from '../components/Card'
+import BookCard from '../components/BookCard'
 
 export const ListTheChoicePageTemplate = ({
   content,
@@ -23,7 +23,7 @@ export const ListTheChoicePageTemplate = ({
 
               <div className="card-list">
                 {list.map(item => {
-                  return <Card key={item.frontmatter.content.subheading} data={item}/>
+                  return <BookCard key={item.frontmatter.content.subheading} data={item}/>
                 })}
               </div>
             </div>
@@ -95,6 +95,18 @@ export const pageQuery = graphql`
               subheading
               description
               author
+              image {
+                childImageSharp {
+                  fluid(maxWidth: 500, quality: 100) {
+                    ...GatsbyImageSharpFluid
+                    ...GatsbyImageSharpFluidLimitPresentationSize
+                  }              
+                }
+              }
+            }
+            pdf {
+              id
+              publicURL
             }
           }
         }
