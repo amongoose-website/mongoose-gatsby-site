@@ -3,11 +3,19 @@
     padding-bottom: 3rem;
 }
 
+.pageHeading__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .pageHeading__index {
     padding: 2rem 0;
 }
 
 .pageHeading > span {
+    padding-bottom: 1rem;
     text-align: center;
     font-family: $heading-font;
     text-transform: uppercase;
@@ -30,7 +38,7 @@
 @media (min-width: 500px) {
     .pageHeading {
         padding-top: 5rem;
-        padding-bottom: 5rem;
+        padding-bottom: 3rem;
     }
 
     .pageHeading .heading {
