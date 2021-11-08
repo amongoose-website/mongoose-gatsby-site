@@ -4,11 +4,13 @@ import { Helmet } from 'react-helmet'
 import '../assets/scss/main.scss'
 
 import Navbar from './Navbar'
+import Footer from './Footer'
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 
-const TemplateWrapper = ({ children, pageTitle }) => {
+const TemplateWrapper = ({ children, pageTitle, disableBackground, footer }) => {
   const { title, description } = useSiteMetadata()
+  const SpecificFooter = footer || Footer;
   return (
     <div>
       <Helmet>
@@ -54,9 +56,10 @@ const TemplateWrapper = ({ children, pageTitle }) => {
         />
       </Helmet>
       <Navbar/>
-      <div className="circuit-board">
+      <div className={disableBackground ? '' : 'circuit-board'}>
         {children}
       </div>
+      <SpecificFooter/>
     </div>
   )
 }
