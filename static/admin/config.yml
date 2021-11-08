@@ -31,3 +31,24 @@ collections:
     - {label: "Template Key", name: "templateKey", widget: hidden, default: "pdf-page"}
     - {label: "Title", name: "title", widget: string, required: true}
     - {label: PDF, name: pdf, widget: file, required: true}
+  - name: "blog-posts"
+    label: "Blog Posts"
+    folder: "src/pages/posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "post-page",
+        }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Author", name: "author", widget: "string"}
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Series title", name: "seriesTitle", widget: "string" }
+      - { label: "Series description", name: "seriesDescription", widget: "text" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Files", name: "files", widget: "list" }
