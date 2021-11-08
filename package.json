@@ -13,6 +13,7 @@
     "gatsby-plugin-react-helmet": "^3.2.5",
     "gatsby-plugin-sass": "^2.2.4",
     "gatsby-plugin-sharp": "^2.5.7",
+    "gatsby-plugin-use-query-params": "^1.0.1",
     "gatsby-remark-copy-linked-files": "^2.2.4",
     "gatsby-remark-images": "^3.2.6",
     "gatsby-remark-relative-images": "^0.3.0",
@@ -32,6 +33,7 @@
     "react-helmet": "^6.0.0",
     "react-pdf": "^5.2.0",
     "react-reftagger": "^2.0.0",
+    "use-query-params": "^1.2.3",
     "uuid": "^7.0.0"
   },
   "keywords": [

@@ -6,6 +6,7 @@ import { RefTagger } from 'react-reftagger';
 import Layout from '../components/Layout'
 import Content, {HTMLContent} from '../components/Content'
 import { BlogFooter } from '../components/Footer';
+import { useQueryParam, StringParam } from 'use-query-params';
 
 export const PostPageTemplate = ({
     title,
@@ -18,7 +19,6 @@ export const PostPageTemplate = ({
     seriesDescription
 }) => {
     const PostContent = contentComponent || Content
-
     return (
       <>
         <div id="root" className="blog__post">
@@ -49,6 +49,14 @@ const PostPage = ({ data }) => {
   const { 
     tags, title, date, author, seriesTitle, seriesDescription
   } = frontmatter
+  const rawJson = useQueryParam('rawJson', StringParam)[0];
+  if (rawJson) {
+    return (
+      <>
+        <pre id="jsonOutput">{JSON.stringify(frontmatter)}</pre>
+      </>
+    )
+  }
   return (
     <Layout
       disableBackground={true}
