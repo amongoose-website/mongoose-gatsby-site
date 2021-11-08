@@ -7,9 +7,8 @@ import Img from "gatsby-image"
 import Button from './Button'
 
 const BookCard = ({ data }) => {	
-    const { frontmatter } = data;
-    const fileName = `${frontmatter.content.heading} - ${frontmatter.content.subheading}`;
-    const metaData = { id: frontmatter.pdf.id, fileName }
+    // const { frontmatter } = data;
+    // const fileName = `${frontmatter.content.heading} - ${frontmatter.content.subheading}`;
 	return (
         <div className="book-card">
             { (data.frontmatter.content.image) &&
