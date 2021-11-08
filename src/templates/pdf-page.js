@@ -6,7 +6,6 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import FullWindowPDF from '../components/PDF/FullWindowPDF'
 import Button from '../components/Button'
-import Icon from '../components/Icon'
 import '../components/PDF/PDF.css'
 
 export const PDFPageTemplate = ({
