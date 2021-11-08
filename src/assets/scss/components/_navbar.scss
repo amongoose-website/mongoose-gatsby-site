@@ -15,6 +15,15 @@
     right: 0;
     top: 0;
     border-bottom: 1px solid black;
+    transition: top 0.3s;
+}
+
+.navbar-show {
+    display: block;
+}
+
+.navbar-hide {
+    display: none;
 }
 
 .navbar-open {
@@ -61,6 +70,10 @@
 }
 
 @media (min-width: 481px) {
+    .navbar {
+        position: relative;
+    }
+
     .navbar__links {
         display: block !important;
     }

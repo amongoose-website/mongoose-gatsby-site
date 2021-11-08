@@ -1,24 +1,40 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import { Pivot as Hamburger } from 'hamburger-react'
 
-const Navbar = () => {
-  return (
-    <nav className="navbar">
-      <div className="navbar__logo">
-        <Link to="/">
-          <span>Amongoose</span>
-        </Link>
-      </div>  
-      <div className="navbar__links">
-        <ul>
-          <li><Link to="/the-choice">The Choice</Link></li>
-          <li>Trending News</li>
-          <li>Charts</li>
-          <li>Videos</li>
-        </ul>
-      </div>
-    </nav>
-  )
+class Navbar extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      open: false,
+      show: true,
+    };
+  }
+
+  render() {
+    return (
+      <nav className={`navbar`}>
+        <div className={`navbar__hamburger`}>
+          <Hamburger 
+            size={20}
+            onToggle={() => this.setState({open: !this.state.open})}/>
+        </div>
+        <div className="navbar__logo">
+          <Link to="/">
+            <span>Amongoose</span>
+          </Link>
+        </div>  
+        <div className={`navbar__links ${this.state.open ? 'navbar-open' : ''}`}>
+          <ul>
+            <li><Link to="/the-choice">The Choice</Link></li>
+            <li>Trending News</li>
+            <li>Charts</li>
+            <li>Videos</li>
+          </ul>
+        </div>
+      </nav>
+    )
+  }
 }
 
 export default Navbar
