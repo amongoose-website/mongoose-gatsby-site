@@ -2,6 +2,7 @@ const _ = require('lodash')
 const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
 const { fmImagesToRelative } = require('gatsby-remark-relative-images')
+const { node } = require('prop-types')
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
@@ -41,6 +42,17 @@ exports.createPages = ({ actions, graphql }) => {
         context: {
           id,
         },
+      });
+
+      createPage({
+        path: `${edge.node.fields.slug}json`,
+        component: path.resolve(
+          `src/templates/json-page.js`
+        ),
+        context: {
+          id,
+          data: edge.node.frontmatter
+        }
       })
     })
   })
