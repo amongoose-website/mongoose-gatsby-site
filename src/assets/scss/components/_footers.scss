@@ -1,7 +1,7 @@
 .blog__footer {
     padding: 3rem 0;
     width: 100%;
-    background-color: #333;
+    background-color: #181818;
     display: flex;
     justify-content: center;
 }
@@ -9,6 +9,70 @@
 .blog__footer > .container {
     width: 90%;
     margin-bottom: 2rem;
+    display: grid;
+}
+
+.series-definition {
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 721px) {
+    .blog__footer > .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 3rem;
+    }
+
+    .series-definition {
+        margin-bottom: 0px;
+    }
+}
+
+.subscribeForm--success {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: #1e6466;
+    background-color: #eefeff;
+    border: 1px solid #72a2a3;
+    padding: 0.8rem 1rem;
+    font-size: 0.85rem;
+}
+
+.subscribeForm--success::after {
+    content: 'check';
+    font-family: 'material icons';
+    font-size: 20px;
+}
+
+.subscribeForm > h3{
+    color: white;
+    font-family: $heading-font;
+    font-weight: 300;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.subscribeForm > form {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 65% 35%;
+}
+
+.subscribeForm > form > input {
+    border: 1px solid black;
+    padding: 0.8rem 1rem;
+    width: 100%;
+    outline: none;
+    font-size: 0.85rem;
+}
+
+.subscribeForm > form > input[type="submit"] {
+    background-color: #CE1135;
+    color: white;
+    width: 100%;
+    cursor: pointer;
 }
 
 @media (min-width: 720px) {
