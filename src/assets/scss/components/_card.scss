@@ -46,6 +46,7 @@
 }
 
 .card {
+    width: 100%;
     background: #fff;
     padding: 2rem;
     margin: 3rem 0;
@@ -54,7 +55,11 @@
 
 .card .card-title {
     display: flex;
-    align-items: flex-end;
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 5px;
+    align-items: flex-start;
+    
 }
 
 .card .heading {
@@ -63,7 +68,7 @@
 }
 
 .card .subheading::before {
-    content: '• '
+    content: ''
 }
 
 .card .subheading {
@@ -72,8 +77,23 @@
     font-weight: 600;
     color: #707070;
     font-size: 1rem;
-    padding-left: 0.5rem;
     padding-bottom: 2px;
+}
+
+@media (min-width: 720px) {
+    .card .card-title {
+        flex-direction: row;
+        align-items: flex-end;
+        row-gap: 0px;
+    }
+
+    .card .subheading::before {
+        content: '• '
+    }
+
+    .card .subheading {
+        padding-left: 0.5rem;
+    }
 }
 
 .card .heading-text {

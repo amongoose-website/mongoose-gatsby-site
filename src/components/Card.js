@@ -1,38 +1,31 @@
 import React from 'react'
+import { Link } from 'gatsby';
 
 import Icon from './Icon'
-import LightBoxPDF from './PDF/LightBoxPDF'
 
 const Card = ({ data }) => {	
     const { frontmatter } = data;
-    const fileName = `${frontmatter.content.heading} - ${frontmatter.content.subheading}`;
-    const metaData = { id: frontmatter.pdf.id, fileName }
+    const { slug } = data.fields;
+    const { title, seriesTitle, author, description } = frontmatter;
 
 	return (
         <div className="card">
-            <div className="card-title">
-                <div className="heading">
-                    <Icon name="menu_book"/>
-                    <span className="heading-text">{data.frontmatter.content.heading}</span>
+            <Link style={{textDecoration: 'none', color: 'inherit'}} to={slug}>
+                <div className="card-title">
+                    <div className="heading">
+                        <Icon name="article"/>
+                        <span className="heading-text">{title}</span>
+                    </div>
+                    <span className="subheading">{seriesTitle}</span>
                 </div>
-                <span className="subheading">{data.frontmatter.content.subheading}</span>
-            </div>
+            </Link>
             <p className="author">
-            by {data.frontmatter.content.author}
+            by {author}
             </p>
             <p className="description">
-                {data.frontmatter.content.description}
+                {description}
             </p>
             <div className="container flex-end">
-                <LightBoxPDF pdf={data.frontmatter.pdf.publicURL} metaData={metaData}></LightBoxPDF>
-                <button className="secondaryButton button__icon">
-                    <Icon name="file_download"/>
-                    Download PDF
-                </button>
-                <button className="secondaryButton button__icon">
-                    <Icon name="print"/>
-                    Print
-                </button>
             </div>
         </div>
     )
