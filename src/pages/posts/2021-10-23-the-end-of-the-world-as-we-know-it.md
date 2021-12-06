@@ -1,6 +1,6 @@
 ---
 templateKey: post-page
-title: THE END OF THE WORLD AS WE KNOW IT
+title: THE END OF THE WORLD AS WE KNOW IT!
 author: Anthony Mongoose
 date: 2021-10-23T15:04:10.000Z
 description: 'Τεστερινο'
