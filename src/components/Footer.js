@@ -28,7 +28,7 @@ export const BlogFooter = ({ seriesTitle, seriesDescription }) => {
           <span className="series-description">{seriesDescription}</span>
         </div>
         <div className="subscribeForm">
-          <h3>Get updates via email</h3>
+          <h3>Get free updates via email</h3>
           {
             !subbed && <form onSubmit={handleSubmit}>
               <input type="email" name="email" placeholder="Email Address"></input>
