@@ -26,8 +26,9 @@ class Navbar extends React.Component {
         </div>  
         <div className={`navbar__links ${this.state.open ? 'navbar-open' : ''}`}>
           <ul>
+            <li><Link to="/">The Trunk</Link></li>
             <li><Link to="/the-choice">The Choice</Link></li>
-            <li>Trending News</li>
+            <li><Link to="/news">Trending News</Link></li>
             <li>Charts</li>
             <li>Videos</li>
           </ul>
