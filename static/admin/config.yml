@@ -51,4 +51,10 @@ collections:
       - { label: "Series description", name: "seriesDescription", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Tags", name: "tags", widget: "list" }
-      - { label: "Files", name: "files", widget: "list" }
+      - {
+          label: "Attachments",
+          name: "Attachments",
+          widget: "list",
+          summary: "{{fields.fileName}}",
+          fields: [{label: "File name", name: fileName, widget: string}, {label: File, name: file, widget: file}]
+        }
