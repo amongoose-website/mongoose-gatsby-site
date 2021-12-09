@@ -7,6 +7,7 @@ import Layout from '../components/Layout'
 import Content, {HTMLContent} from '../components/Content'
 import { BlogFooter } from '../components/Footer';
 import { useQueryParam, StringParam } from 'use-query-params';
+import Attachment from '../components/Attachment';
 
 export const PostPageTemplate = ({
     title,
@@ -16,7 +17,8 @@ export const PostPageTemplate = ({
     content,
     contentComponent,
     seriesTitle,
-    seriesDescription
+    seriesDescription,
+    attachments
 }) => {
     const PostContent = contentComponent || Content
     return (
@@ -32,6 +34,17 @@ export const PostPageTemplate = ({
             <div className="container blog__content">
               <RefTagger bibleVersion="KJV"/>
               <PostContent content={content}/>
+              {
+              attachments.length > 0 && <section id="attachments">
+                  <h2>Attachments</h2>
+                  <div className="attachments__container">
+                    {
+                      attachments.map((attachment, key) => <Attachment key={key} attachment={attachment}></Attachment>)
+                    }
+                  </div>
+                </section>
+              }
+
             </div>
             <BlogFooter seriesTitle={seriesTitle} seriesDescription={seriesDescription}/>
         </div>
@@ -47,7 +60,7 @@ PostPageTemplate.propTypes = {
 const PostPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
   const { 
-    tags, title, date, author, seriesTitle, seriesDescription
+    tags, title, date, author, seriesTitle, seriesDescription, attachments
   } = frontmatter
   const rawJson = useQueryParam('rawJson', StringParam)[0];
   if (rawJson) {
@@ -70,6 +83,7 @@ const PostPage = ({ data }) => {
         author={author}
         seriesTitle={seriesTitle}
         seriesDescription={seriesDescription}
+        attachments={attachments}
       />
     </Layout>
   )
@@ -95,6 +109,13 @@ query PostByID($id: String!) {
         author
         seriesTitle
         seriesDescription
+        attachments {
+          fileName
+          file {
+            publicURL
+            extension
+          }
+        }
       }
     }
   }
