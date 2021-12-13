@@ -53,10 +53,11 @@
     font-family: 'Montserrat', 'Helvetica', 'Aria';
 }
 
-
 .blog__content p {
     margin-top: 2rem;
     margin-bottom: 0.8rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .blog__content blockquote {
@@ -80,6 +81,11 @@
 
 .blog__content a:hover {
     color: #CE1135;
+}
+
+.blog__content img {
+    margin: 2rem auto;
+    max-width: 100%;
 }
 
 .blog__content .rtBibleRef {
