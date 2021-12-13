@@ -15,6 +15,9 @@ tags:
   - '"unconstitutional government"'
   - constitution
   - '"Australian Corporate Government"'
+attachments:
+  - fileName: Test
+    file: /img/Discrepencies_in_NT_scriptures.pdf
 ---
 <!--\[if !mso]>
 <style>
