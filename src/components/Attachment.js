@@ -15,7 +15,13 @@ const Attachment = ({ attachment }) => {
     const { fileName, file } = attachment;
     const theme = ATTACHMENT_THEMES[file.extension] || ATTACHMENT_THEMES.default;
     return (
-        <div className="attachment__container" onClick={
+        <div className="attachment__container" tabIndex={0} role="button" onKeyDown={
+            function (event) {
+                if (event.key === 'Enter') {
+                    window.open(file.publicURL);
+                }
+            }
+        } onClick={
             function (event) {
                 window.open(file.publicURL)
                 event.preventDefault();
