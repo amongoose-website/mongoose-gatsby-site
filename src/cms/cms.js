@@ -5,8 +5,8 @@ import cloudinary from 'netlify-cms-media-library-cloudinary'
 import PDFPagePreview from './preview-templates/PDFPagePreview'
 import PostPagePreview from './preview-templates/PostPagePreview'
 
-CMS.registerPreviewTemplate('pdf-page', PDFPagePreview)
-CMS.registerPreviewTemplate('post-page', PostPagePreview)
-
 CMS.registerMediaLibrary(uploadcare)
 CMS.registerMediaLibrary(cloudinary)
+
+CMS.registerPreviewTemplate('pdf-page', PDFPagePreview)
+CMS.registerPreviewTemplate('post-page', PostPagePreview)

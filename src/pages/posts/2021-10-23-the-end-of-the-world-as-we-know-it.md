@@ -11,10 +11,9 @@ tags:
   - end times
   - jesus
   - kingdom
-Attachments:
+attachments:
   - fileName: Test
     file: /img/THE-CHOICE-FORWARD.pdf
-attachments:
   - fileName: Lion and Lamb
     file: /images/lion-and-lamb.jpg
   - fileName: Covid Song
