@@ -19,11 +19,9 @@ export const ListPageTemplate = ({
               <span className="subheading">{content.subheading}</span>
             </div>
             <div className="container">
-              <span className="description">{content.description}</span>
-
               <div className="card-list">
-                {list.map(item => {
-                  return <Card key={item.frontmatter.title} data={item}/>
+                {list.map((item, index) => {
+                  return <Card key={index} data={item}/>
                 })}
               </div>
             </div>

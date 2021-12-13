@@ -1,12 +1,16 @@
 import React from 'react'
-import { Link } from 'gatsby';
+import { Link } from 'gatsby'
+
+import moment from 'moment'
 
 import Icon from './Icon'
 
 const Card = ({ data }) => {	
     const { frontmatter } = data;
     const { slug } = data.fields;
-    const { title, seriesTitle, author, description } = frontmatter;
+    const { title, seriesTitle, author, tags, date } = frontmatter;
+
+    const formattedDate = moment(date).format('MMMM Do YYYY, h:mm a')
 
 	return (
         <div className="card">
@@ -19,13 +23,18 @@ const Card = ({ data }) => {
                     <span className="subheading">{seriesTitle}</span>
                 </div>
             </Link>
+            <p className="date">
+            {formattedDate}
+            </p>
             <p className="author">
             by {author}
             </p>
-            <p className="description">
-                {description}
-            </p>
-            <div className="container flex-end">
+            <div className="container tags">
+                {tags.map((tag, index) => (
+                    <div key={index} className="tagContainer">
+                        <span>#{tag.replaceAll('"', '')}</span>
+                    </div>
+                ))}
             </div>
         </div>
     )

@@ -87,7 +87,7 @@ const PostPage = ({ data }) => {
         author={author}
         seriesTitle={seriesTitle}
         seriesDescription={seriesDescription}
-        attachments={attachments}
+        attachments={attachments || []}
       />
     </Layout>
   )

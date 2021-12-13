@@ -116,3 +116,16 @@
 .card button {
     margin-top: 0.5rem;
 }
+
+.card .tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card .tags .tagContainer {
+    padding: 2px 5px;
+    margin: 5px 5px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+}

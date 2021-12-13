@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import axios from 'axios';
 
 const Footer = () => {
   return (
@@ -12,7 +11,7 @@ export default Footer
 
 export const BlogFooter = ({ seriesTitle, seriesDescription }) => {
   // Subscription management
-  const [subbed, setSubbed] = useState(false);
+  const [subbed] = useState(false);
   const [subStatus, setSubStatus] = useState('Subscribe');
 
   const handleSubmit = (event) => {

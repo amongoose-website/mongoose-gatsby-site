@@ -4,7 +4,7 @@ title: THE GREAT ACT OF TREASON (1973 & 1986) HAS NOT BEEN FORGOTTEN - ARRESTS
   TO FOLLOW (CONSTITUTIONALLY LEGAL AND LAWFUL)
 author: Anthony Mongoose
 date: 2021-12-11T17:51:00.000Z
-description: ...
+description: "..."
 seriesTitle: CONSTITUTIONAL LEGALITIES
 seriesDescription: Bringing the unconstitutional corporate government to heel.
 tags:
@@ -15,9 +15,6 @@ tags:
   - '"unconstitutional government"'
   - constitution
   - '"Australian Corporate Government"'
-attachments:
-  - fileName: Test
-    file: /img/Discrepencies_in_NT_scriptures.pdf
 ---
 ### [Velvet Revolution in Australia](https://www.bitchute.com/video/DttrF7742d9p/)
 
