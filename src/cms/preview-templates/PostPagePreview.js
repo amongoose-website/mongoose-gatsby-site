@@ -1,5 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import {HTMLContent} from '../../components/Content'
+
 import { PostPageTemplate } from '../../templates/post-page'
 
 const PostPagePreview = ({ entry, getAsset }) => {
