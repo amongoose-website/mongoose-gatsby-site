@@ -5,9 +5,10 @@ import { graphql } from 'gatsby'
 import { RefTagger } from 'react-reftagger';
 import Layout from '../components/Layout'
 import Content, {HTMLContent} from '../components/Content'
-import { BlogFooter } from '../components/Footer';
-import { useQueryParam, StringParam } from 'use-query-params';
-import Attachment from '../components/Attachment';
+import { BlogFooter } from '../components/Footer'
+import { useQueryParam, StringParam } from 'use-query-params'
+import Attachment from '../components/Attachment'
+import CommentSection from '../components/CommentSection'
 
 export const PostPageTemplate = ({
     title,
@@ -46,6 +47,9 @@ export const PostPageTemplate = ({
               }
 
             </div>
+            
+            <CommentSection/>
+
             <BlogFooter seriesTitle={seriesTitle} seriesDescription={seriesDescription}/>
         </div>
       </>
