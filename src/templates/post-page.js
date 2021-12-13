@@ -2,6 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 
+import moment from 'moment';
+
 import { RefTagger } from 'react-reftagger';
 import Layout from '../components/Layout'
 import Content, {HTMLContent} from '../components/Content'
@@ -22,12 +24,13 @@ export const PostPageTemplate = ({
     attachments
 }) => {
     const PostContent = contentComponent || Content
+    const formattedDate = moment(date).format('MMMM Do YYYY, h:mm a')
     return (
       <>
         <div id="root" className="blog__post">
             <section className="circuit-board pageHeading__container">
               <div className="container pageHeading">
-                <span className="blog-date">{date}</span>
+                <span className="blog-date">{formattedDate}</span>
                 <span className="blog-heading">{title}</span>
                 <span className="blog-author">by {author}</span>
               </div>
