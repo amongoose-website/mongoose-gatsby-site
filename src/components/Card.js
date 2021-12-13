@@ -32,7 +32,7 @@ const Card = ({ data }) => {
             <div className="container tags">
                 {tags.map((tag, index) => (
                     <div key={index} className="tagContainer">
-                        <span>#{tag.replaceAll('"', '')}</span>
+                        <span>#{tag.replace(/"/g, '')}</span>
                     </div>
                 ))}
             </div>
