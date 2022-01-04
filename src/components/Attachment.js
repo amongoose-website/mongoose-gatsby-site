@@ -13,6 +13,7 @@ const ATTACHMENT_THEMES = {
 
 const Attachment = ({ attachment }) => {
     const { fileName, file } = attachment;
+    if (!file) return null
     const theme = ATTACHMENT_THEMES[file.extension] || ATTACHMENT_THEMES.default;
     return (
         <div className="attachment__container" tabIndex={0} role="button" onKeyDown={
