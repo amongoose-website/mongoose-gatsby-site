@@ -1,31 +1,27 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import {HTMLContent} from '../../components/Content'
+import Showdown from 'showdown'
 
 import { PostPageTemplate } from '../../templates/post-page'
 
 const PostPagePreview = ({ entry, getAsset }) => {
   const data = entry.getIn(['data']).toJS()
   if (data) {
-    const { frontmatter } = data.markdownRemark
-    const { 
-        tags, title, date, author, seriesTitle,
-        seriesDescription, attachments
-    } = frontmatter
+    const converter = new Showdown.Converter();
+    const body = converter.makeHtml(data.body)
 
     return (
       <>
-      <PostPageTemplate
-        content={data.markdownRemark.html}
-        contentComponent={HTMLContent}
-        tags={tags}
-        title={title}
-        date={date}
-        author={author}
-        seriesTitle={seriesTitle}
-        seriesDescription={seriesDescription}
-        attachments={attachments}
-      />
+        <PostPageTemplate
+          content={body}
+          tags={data.tags}
+          title={data.title}
+          date={data.date}
+          author={data.author}
+          seriesTitle={data.seriesTitle}
+          seriesDescription={data.seriesDescription}
+          attachments={data.attachments}
+        />
       </>
     )
   } else {
