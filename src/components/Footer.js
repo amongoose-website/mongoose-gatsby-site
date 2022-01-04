@@ -1,6 +1,8 @@
 import React from 'react'
 import axios from 'axios'
 
+import Icon from './Icon'
+
 const Footer = () => {
   return (
       <footer>
@@ -9,6 +11,11 @@ const Footer = () => {
 }
 
 export default Footer
+
+const ERROR_MESSAGES = {
+  429: 'You have reached the limit for subscriptions. Try again in 24 hours.',
+  400: 'This domain is authorised.'
+};
 
 export class BlogFooter extends React.Component {
   constructor (data) {
@@ -19,7 +26,8 @@ export class BlogFooter extends React.Component {
     this.state = {
       email: '',
       subbed: false,
-      subStatus: 'Subscribe'
+      subStatus: 'Subscribe',
+      error: null
     }
 
     this.handleChange = this.handleChange.bind(this)
@@ -33,14 +41,20 @@ export class BlogFooter extends React.Component {
   async handleSubmit(event) {
     event.preventDefault()
 
-    const res = await axios.post('https://emailer.amongoose.com/subscribe', {
+    axios.post('https://emailer.amongoose.com/subscribe', {
       name: '',
       email: this.state.email
+    }).then(res => {
+      if (res && res.status === 200) {
+        this.setState({subbed: true})
+      }
+    }).catch(error => {
+      if (error.response) {
+        if (ERROR_MESSAGES[error.response.status]) {
+          return this.setState({error: ERROR_MESSAGES[error.response.status]})
+        }
+      }
     })
-
-    if (res.status === 200) {
-      this.setState({subbed: true})
-    }
   }
 
   render() {
@@ -69,6 +83,10 @@ export class BlogFooter extends React.Component {
                 <span>Subscribed</span>
               </div>
             }
+            <div className={`subscribeForm__error-msg ${this.state.error ? 'show' : null}`}>
+              <Icon name="error"/>
+              <span>{this.state.error}</span>
+            </div>
           </div>
         </div>
       </section>

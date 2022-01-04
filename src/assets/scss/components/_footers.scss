@@ -28,6 +28,11 @@
     }
 }
 
+.subscribeForm {
+    display: flex;
+    flex-direction: column;
+}
+
 .subscribeForm--success {
     display: flex;
     justify-content: space-between;
@@ -73,6 +78,20 @@
     color: white;
     width: 100%;
     cursor: pointer;
+}
+
+.subscribeForm__error-msg {
+    color: white;
+    padding-top: 1.3rem;
+    display: none;
+    flex-direction: row;
+    font-size: 0.9rem;
+    grid-gap: 1rem;
+    transition: all 0.5s;
+}
+
+.subscribeForm__error-msg.show {
+    display: flex;
 }
 
 @media (min-width: 720px) {
