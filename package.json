@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "author": "Joshua Grimmett",
   "dependencies": {
+    "axios": "^0.24.0",
     "bulma": "^0.9.0",
     "commentbox.io": "^2.1.0",
     "gatsby": "^2.20.35",
