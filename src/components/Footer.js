@@ -13,7 +13,7 @@ const Footer = () => {
 export default Footer
 
 const ERROR_MESSAGES = {
-  429: 'You have reached the limit for subscriptions. Try again in 24 hours.',
+  429: 'You have reached the daily limit for subscription requests. Try again in 24 hours.',
   400: 'This domain is authorised.'
 };
 
