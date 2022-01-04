@@ -6,7 +6,7 @@ import moment from 'moment';
 
 import { RefTagger } from 'react-reftagger';
 import Layout from '../components/Layout'
-import Content, {HTMLContent} from '../components/Content'
+import {HTMLContent} from '../components/Content'
 import { BlogFooter } from '../components/Footer'
 import { useQueryParam, StringParam } from 'use-query-params'
 import Attachment from '../components/Attachment'
@@ -23,7 +23,6 @@ export const PostPageTemplate = ({
     seriesDescription,
     attachments
 }) => {
-    const PostContent = contentComponent || Content
     const formattedDate = moment(date).format('MMMM Do YYYY, h:mm a')
     return (
       <>
@@ -37,9 +36,9 @@ export const PostPageTemplate = ({
             </section>
             <div className="container blog__content">
               <RefTagger bibleVersion="KJV"/>
-              <PostContent content={content}/>
+              <HTMLContent content={content}/>
               {
-              attachments.length > 0 && <section id="attachments">
+                attachments && attachments.length > 0 && <section id="attachments">
                   <h2>Attachments</h2>
                   <div className="attachments__container">
                     {
