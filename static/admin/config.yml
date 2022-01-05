@@ -1,5 +1,5 @@
 backend:
-  name: test-repo
+  name: git-gateway
   branch: master
   repo: joshua-grimmett/mongoose-gatsby-site
   commit_messages:
@@ -32,7 +32,7 @@ collections:
     - {label: "Template Key", name: "templateKey", widget: hidden, default: "pdf-page"}
     - {label: "Title", name: "title", widget: string, required: true}
     - {label: PDF, name: pdf, widget: file, required: true}
-  - name: "post-page"
+  - name: "post-pages"
     label: "Blog Posts"
     folder: "src/pages/posts"
     create: true
