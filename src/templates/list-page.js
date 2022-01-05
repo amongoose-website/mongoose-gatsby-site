@@ -89,9 +89,6 @@ export const pageQuery = graphql`
             title
             author
             date
-            description
-            seriesTitle
-            seriesDescription
             tags
           }
         }

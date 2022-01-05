@@ -18,8 +18,6 @@ export const PostPageTemplate = ({
     date,
     content,
     contentComponent,
-    seriesTitle,
-    seriesDescription,
     attachments
 }) => {
     const formattedDate = moment(date).format('MMMM Do YYYY, h:mm a')
@@ -51,7 +49,7 @@ export const PostPageTemplate = ({
             
             <CommentSection/>
 
-            <BlogFooter seriesTitle={seriesTitle} seriesDescription={seriesDescription}/>
+            <BlogFooter seriesTitle={"Trending News"} seriesDescription={"Returning to the old normal."}/>
         </div>
       </>
     )
@@ -65,7 +63,7 @@ PostPageTemplate.propTypes = {
 const PostPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
   const { 
-    tags, title, date, author, seriesTitle, seriesDescription, attachments
+    tags, title, date, author, attachments
   } = frontmatter
   const rawJson = useQueryParam('rawJson', StringParam)[0];
   if (rawJson) {
@@ -86,8 +84,6 @@ const PostPage = ({ data }) => {
         title={title}
         date={date}
         author={author}
-        seriesTitle={seriesTitle}
-        seriesDescription={seriesDescription}
         attachments={attachments || []}
       />
     </Layout>
@@ -112,8 +108,6 @@ query PostByID($id: String!) {
         title
         tags
         author
-        seriesTitle
-        seriesDescription
         attachments {
           fileName
           file {

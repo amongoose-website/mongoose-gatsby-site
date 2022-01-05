@@ -19,8 +19,6 @@ query JSONPostByID($id: String!) {
           title
           tags
           author
-          seriesTitle
-          seriesDescription
         }
     }
 }`;
