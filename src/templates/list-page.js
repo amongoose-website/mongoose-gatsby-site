@@ -77,8 +77,8 @@ export const pageQuery = graphql`
         templateKey: {eq: "post-page"}
       }
     }, sort: {
-      order:ASC,
-      fields:frontmatter___content___subheading
+      order:DESC,
+      fields:frontmatter___date
     }) {
       edges {
         node {
