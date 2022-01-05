@@ -8,10 +8,6 @@ tags:
   - end times
   - jesus
   - kingdom
-<<<<<<< HEAD
-=======
-attachments: []
->>>>>>> 1cde4c341b0999cd769fdc1f0f543920631a0258
 ---
 > “And said to the mountains and rocks, Fall on us, and hide us from the face of him that sitteth on the throne, and from the wrath of the Lamb:”
 > (Revelation 6:16)
