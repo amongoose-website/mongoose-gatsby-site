@@ -3,25 +3,11 @@ templateKey: post-page
 title: THE END OF THE WORLD AS WE KNOW IT!
 author: Anthony Mongoose
 date: 2021-10-23T15:04:10.000Z
-description: Nope
-seriesTitle: Trending News
-seriesDescription: The news of the current
 tags:
   - revelation
   - end times
   - jesus
   - kingdom
-attachments:
-  - fileName: Test
-    file: /img/THE-CHOICE-FORWARD.pdf
-  - fileName: Lion and Lamb
-    file: /images/lion-and-lamb.jpg
-  - fileName: Covid Song
-    file: /images/covid-song.mp4
-  - fileName: Da PDF
-    file: /images/annotated-chart.pdf
-  - fileName: Test text
-    file: /images/test.txt
 ---
 > “And said to the mountains and rocks, Fall on us, and hide us from the face of him that sitteth on the throne, and from the wrath of the Lamb:”
 > (Revelation 6:16)

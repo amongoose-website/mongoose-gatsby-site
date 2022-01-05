@@ -3,9 +3,6 @@ templateKey: post-page
 title: FALSE STATS REPORTED, SECRET TRIALS, DEATH AFTER SPEAKING TRUTH
 author: Anthony Mongoose
 date: 2021-12-10T17:46:00.000Z
-description: '"..."'
-seriesTitle: Trending News
-seriesDescription: Return to the old normal.
 tags:
   - '"Fully Vaccinated"'
   - '"Vaccine Deaths"'
