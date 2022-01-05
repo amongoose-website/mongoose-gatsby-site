@@ -3,6 +3,10 @@ templateKey: post-page
 title: AUTHORITARIAN CENSORSHIP
 author: Anthony Mongoose
 date: 2021-12-28T15:51:00.000Z
+tags:
+  - government
+  - australia
+  - agenda
 ---
 # Justinian Deception MESSAGE
 
