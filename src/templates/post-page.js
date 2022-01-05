@@ -1,15 +1,14 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
-
 import moment from 'moment';
-
-import { RefTagger } from 'react-reftagger';
-import Layout from '../components/Layout'
-import {HTMLContent} from '../components/Content'
-import { BlogFooter } from '../components/Footer'
+import { graphql } from 'gatsby'
+import PropTypes from 'prop-types'
 import { useQueryParam, StringParam } from 'use-query-params'
+
+import Layout from '../components/Layout'
+import { RefTagger } from 'react-reftagger';
+import { BlogFooter } from '../components/Footer'
 import Attachment from '../components/Attachment'
+import { HTMLContent } from '../components/Content'
 import CommentSection from '../components/CommentSection'
 
 export const PostPageTemplate = ({
