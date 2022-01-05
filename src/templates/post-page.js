@@ -80,7 +80,7 @@ const PostPage = ({ data }) => {
       <PostPageTemplate
         content={data.markdownRemark.html}
         contentComponent={HTMLContent}
-        tags={tags}
+        tags={tags || []}
         title={title}
         date={date}
         author={author}
