@@ -10,7 +10,7 @@ const Card = ({ data }) => {
     const { slug } = data.fields;
     const { title, seriesTitle, author, tags, date } = frontmatter;
 
-    const formattedDate = moment(date).format('MMMM Do YYYY, h:mm a')
+    const formattedDate = moment(date).format('MMMM Do YYYY')
 
 	return (
         <div className="card">

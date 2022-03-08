@@ -20,7 +20,7 @@ export const PostPageTemplate = ({
     contentComponent,
     attachments
 }) => {
-    const formattedDate = moment(date).format('MMMM Do YYYY, h:mm a')
+    const formattedDate = moment(date).format('MMMM Do YYYY')
     return (
       <>
         <div id="root" className="blog__post">
