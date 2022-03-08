@@ -30,7 +30,7 @@ const Card = ({ data }) => {
             by {author}
             </p>
             <div className="container tags">
-                {tags.map((tag, index) => (
+                {tags && tags.map((tag, index) => (
                     <div key={index} className="tagContainer">
                         <span>#{tag.replace(/"/g, '')}</span>
                     </div>
