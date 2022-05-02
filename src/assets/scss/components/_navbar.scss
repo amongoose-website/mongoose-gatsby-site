@@ -7,6 +7,7 @@
     padding: 1.5rem;
     font-size: 1.2rem;
     font-weight: 600;
+    border-bottom: solid 2px black;
 }
 
 .navbar {
@@ -14,7 +15,7 @@
     left: 0;
     right: 0;
     top: 0;
-    border-bottom: 1px solid black;
+    border-bottom: solid 2px black;
     transition: top 0.3s;
 }
 
@@ -40,7 +41,7 @@
 .navbar__links {
     display: none;
     background-color: $navbar-colour;
-    background: $navbar-gradient;
+    // background: $navbar-gradient;
     color: $navbar-text-colour;
     text-transform: uppercase;
     font-weight: 500;
@@ -80,10 +81,6 @@
 
     .navbar__hamburger {
         display: none;
-    }
-
-    .navbar {
-        border: none;
     }
 
     .navbar__links ul {

@@ -18,7 +18,7 @@ export const IndexPageTemplate = ({
             <div id="root">
                 <div className="pageHeading pageHeading__index">
                   <span className="preheading">{content.preheading}</span>
-                  <span className="heading">{content.heading}</span>
+                  <span className="heading red-pill">{content.heading}</span>
                   <span className="subheading">{content.subheading}</span>
                 </div>
                 <FullWindowPDF pdf={pdf.publicURL} metaData={metaData}></FullWindowPDF>

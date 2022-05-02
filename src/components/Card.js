@@ -17,18 +17,13 @@ const Card = ({ data }) => {
             <Link style={{textDecoration: 'none', color: 'inherit'}} to={slug}>
                 <div className="card-title">
                     <div className="heading">
-                        <Icon name="article"/>
                         <span className="heading-text">{title}</span>
                     </div>
                     <span className="subheading">{seriesTitle}</span>
                 </div>
             </Link>
-            <p className="date">
-            {formattedDate}
-            </p>
-            <p className="author">
-            by {author}
-            </p>
+            <span className="date">{formattedDate} | </span>
+            <span className="author">by {author}</span>
             <div className="container tags">
                 {tags && tags.map((tag, index) => (
                     <div key={index} className="tagContainer">
