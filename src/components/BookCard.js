@@ -7,9 +7,25 @@ import Img from "gatsby-image"
 import Button from './Button'
 
 const BookCard = ({ data }) => {	
-    // const { frontmatter } = data;
+    const { frontmatter } = data;
     // const fileName = `${frontmatter.content.heading} - ${frontmatter.content.subheading}`;
-	return (
+	console.log(data.frontmatter.content.image)
+    return (
+        <div className="book-card card">
+            <div className="col">
+                <Link style={{textDecoration: 'none', color: 'inherit'}} to={data.fields.slug}>
+                    <div className="card-title">
+                        <div className="heading">
+                            <span className="heading-text">{frontmatter.content.heading} - {frontmatter.content.subheading}</span>
+                        </div>
+                    </div>
+                </Link>
+                <span className="date">{frontmatter.content.description}</span>
+            </div>
+        </div>
+    )
+    
+    return (
         <div className="book-card">
             { (data.frontmatter.content.image) &&
                 <Link to={data.fields.slug}>
@@ -21,17 +37,6 @@ const BookCard = ({ data }) => {
                 <p className="description">
                     {data.frontmatter.content.description}
                 </p>
-                <div className="flex-end">
-                    <Button link={data.fields.slug} text="Read now"></Button>
-                    <button className="secondaryButton button__icon">
-                        <Icon name="file_download"/>
-                        Download PDF
-                    </button>
-                    <button className="secondaryButton button__icon">
-                        <Icon name="print"/>
-                        Print PDF
-                    </button>
-                </div>
             </div>
             
         </div>

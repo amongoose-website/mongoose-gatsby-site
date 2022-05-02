@@ -19,7 +19,7 @@ export const ListTheChoicePageTemplate = ({
             </div>
 
             <div className="container">
-              <span className="description">{content.description}</span>
+                <p className="center description">{content.description}</p>
 
               <div className="card-list">
                 {list.map(item => {

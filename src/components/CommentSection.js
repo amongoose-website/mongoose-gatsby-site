@@ -10,6 +10,7 @@ const CONFIG = {
     textColor: null,
     subtextColor: null,
     singleSignOn: null,
+    buttonColor: 'CE1135'
 };
 
 class CommentSection extends React.Component {
