@@ -9,7 +9,6 @@ import Button from './Button'
 const BookCard = ({ data }) => {	
     const { frontmatter } = data;
     // const fileName = `${frontmatter.content.heading} - ${frontmatter.content.subheading}`;
-	console.log(data.frontmatter.content.image)
     return (
         <div className="book-card card">
             <div className="col">
