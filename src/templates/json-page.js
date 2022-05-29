@@ -19,6 +19,7 @@ query JSONPostByID($id: String!) {
           title
           tags
           author
+          groups
         }
     }
 }`;
