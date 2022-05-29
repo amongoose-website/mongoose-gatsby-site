@@ -4,6 +4,7 @@ title: 'SCANDEMIC UPDATE JUNE 2021 PARTS 1, 2 & 3'
 author: 'Anthony Mongoose'
 tags: null
 date: '2022-05-24T20:05:00.000Z'
+groups: 'bcc10'
 attachments:
 ---
 <html><head></head><body><div dir="ltr"><div class="gmail_default" style="font-family:tahoma,sans-serif;font-size:small">
