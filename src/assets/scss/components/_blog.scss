@@ -1,7 +1,31 @@
+.blog__content h1, 
+.blog__content h2, 
+.blog__content h3, 
+.blog__content h4, 
+.blog__content h5, 
+.blog__content h6,
+.blog__content p, 
+.blog__content span.gmail_default, 
+.blog__content input,
+.blog__content font {
+    font-family: $body-font !important;
+}
+
+.blog__content {
+    text-align: center;
+    overflow: scroll;
+    overflow-wrap: break-word;
+}
+
 .blog-heading {
     font-size: 2rem;
     font-weight: 600;
     max-width: 100%;
+}
+
+span.blog-date, span.blog-author {
+    font-family: $body-font;
+    text-transform: capitalize;
 }
 
 @media (min-width: 481px) {
@@ -31,11 +55,6 @@
     .blog__content.container {
         width: 60%;
     }   
-}
-
-.pageHeading > .blog-author {
-    font-family: 'Open Sans';
-    text-transform: capitalize;
 }
 
 .blog__content p, li {

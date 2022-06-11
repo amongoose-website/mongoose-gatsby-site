@@ -7,7 +7,6 @@
     padding: 1.5rem;
     font-size: 1.2rem;
     font-weight: 600;
-    border-bottom: solid 2px black;
 }
 
 .navbar {
@@ -15,7 +14,6 @@
     left: 0;
     right: 0;
     top: 0;
-    border-bottom: solid 2px black;
     transition: top 0.3s;
 }
 
@@ -44,6 +42,7 @@
     // background: $navbar-gradient;
     color: $navbar-text-colour;
     text-transform: uppercase;
+    text-align: center;
     font-weight: 500;
     padding: 1.5rem;
 }
@@ -52,10 +51,11 @@
     display: flex;
     flex-direction: column;
     list-style: none;
+    padding: 0;
 }
 
 .navbar__links ul li {
-    padding: 0 1rem;
+    padding: 0 1.5rem;
     font-family: $navbar-links-font;
     font-size: 1rem;
     border-left: solid 1.5px white;

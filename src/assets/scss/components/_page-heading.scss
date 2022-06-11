@@ -18,21 +18,24 @@
     padding-bottom: 1rem;
     text-align: center;
     font-family: $heading-font;
-    text-transform: uppercase;
     display: block;
 }
 
 .pageHeading .preheading {
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 500;
     color: white;
 }
 
 .pageHeading .heading {
     font-size: 3rem;
-    font-weight: 600;
+    font-weight: 500;
     padding-bottom: 1rem;
-    color: white;
+    text-transform: uppercase;
+}
+
+.pageHeading__index > .heading {
+    font-size: 4rem
 }
 
 @media (min-width: 500px) {
@@ -42,20 +45,16 @@
     }
 
     .pageHeading .heading {
-        font-size: 4rem;
-        font-weight: 600;
-        color: white;
+        font-size: 5rem;
     }
 
     .pageHeading .subheading {
         font-size: 1.2rem;
-        font-weight: 600;
-        color: white;
     }
 }
 
 .pageHeading .subheading {
     font-size: 1.1rem;
     font-weight: 600;
-    color: white;
+    font-family: $body-font;
 }
