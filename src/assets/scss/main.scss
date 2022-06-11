@@ -15,8 +15,13 @@
 @import './components/footers';
 @import './components/attachment';
 @import './components/comments';
+@import './components/section';
 
 * {
     margin: 0;
     box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth !important;
 }
