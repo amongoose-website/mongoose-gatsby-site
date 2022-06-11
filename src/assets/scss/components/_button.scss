@@ -36,3 +36,35 @@
         padding-right: 10px;
     }
 }
+
+button.red-pill-button {
+    cursor: pointer;
+    border-radius: 100%;
+    border: none;
+    background-color: $red-pill-colour;
+    
+    color: white;
+    font-family: $body-font;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 25px;
+}
+
+button.scrollButton {
+    margin: 2rem 0;
+    background: none;
+    border: none;
+    a {
+        color: inherit;
+    }
+    i {
+        font-size: 20pt;
+    }
+}
+
+@media (min-width: 500px) {
+    button .red-pill-button {
+
+    }   
+}
