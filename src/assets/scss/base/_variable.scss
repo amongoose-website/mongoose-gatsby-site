@@ -1,13 +1,15 @@
 $red-pill-gradient: linear-gradient(180deg, #87031c 0%, #df0000 100%);
-$red-pill-colour: #CE1135;
+// $red-pill-colour: #CE1135
+$red-pill-colour: #D50027;
+
+$primary-text-colour: black;
 
 $navbar-colour: white;
 $navbar-gradient: $red-pill-gradient;
 $navbar-text-colour: black;
-$navbar-logo-font: $heading-font;
-$navbar-links-font: $heading-font;
+$navbar-logo-font: $body-font;
+$navbar-links-font: $body-font;
 
 .red-pill {
     color: $red-pill-colour !important;
-    text-shadow: darken($red-pill-colour, 10%) 0px 0px 20px;
 }
