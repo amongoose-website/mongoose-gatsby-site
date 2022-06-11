@@ -10,14 +10,9 @@ attachments:
   - {"file":"/assets/2022-06-11-this-one-has-been-in-the-planning-for-decades----confucious-say---ah-so-!!/ChinaSpeaks.pdf","fileName":"ChinaSpeaks"}
 ---
 <html><head></head><body><div dir="ltr"><div class="gmail_default" style="font-family:tahoma,sans-serif;text-align:center"><font size="4">
-
-
-	
-
 	</font><div id="m_2532161394085705229m_6946027350232922892m_-488352169359789578m_-666987097766316066gmail-Col2">
 		<div id="m_2532161394085705229m_6946027350232922892m_-488352169359789578m_-666987097766316066gmail-Headline">
 		<h1><span style="color:rgb(0,0,255)"><font size="6"><span style="font-weight:normal">WHO IS THIS MAN, WHO IS THIS KING</span></font></span></h1><h1><font size="4"><span style="font-weight:normal"></span></font></h1><h1><font size="4"><span style="font-weight:normal"><a href="https://drive.google.com/file/d/1SBR29CiEHBj-xSXWnw95ASf7L0AK3ACO/view" target="_blank">https://drive.google.com/file/d/1SBR29CiEHBj-xSXWnw95ASf7L0AK3ACO/view</a></span></font></h1><div><br></div><div><br></div><h1><span style="color:rgb(103,78,167)"><span style="font-weight:normal"><font size="6">RED ALERT: Russia and China planning a simultaneous attack <br></font></span></span></h1><h1><span style="color:rgb(103,78,167)"><span style="font-weight:normal"><font size="6">to ELIMINATE the United States and occupy North America</font></span></span></h1>
-
 		<p>
 			<span><font size="4">Tuesday, June 07, 2022 by: <a href="https://www.naturalnews.com/author/healthranger" title="Posts by Mike Adams" rel="author" target="_blank">Mike Adams</a></font>				</span></p></div></div>
 
