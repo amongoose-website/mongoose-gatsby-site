@@ -2,8 +2,9 @@
 templateKey: index-page
 content:
     preheading: This site is all about
-    heading: “The Choice”
-    subheading: Where would you like to spend eternity?
+    heading: The Choice
+    subheading: "This is your last chance. After this, there is no turning back. You take the blue pill—the story ends, you wake up in your bed and believe whatever you want to believe. You take the red pill — you stay in Wonderland, and I show you how deep the rabbit hole goes. Remember: all I’m offering is the truth. Nothing more."
+
 pdf: /assets/TRUNK.pdf
 title: Introduction
 ---
