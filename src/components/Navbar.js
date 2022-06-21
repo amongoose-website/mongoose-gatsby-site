@@ -30,7 +30,7 @@ class Navbar extends React.Component {
             <li><Link to="/the-choice">The Choice</Link></li>
             <li><Link to="/news">Trending News</Link></li>
             <li>Charts</li>
-            <li>Videos</li>
+            <li><a href="https://tv.amongoose.com">Videos</a></li>
           </ul>
         </div>
       </nav>
