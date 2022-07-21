@@ -1,0 +1,47 @@
+---
+templateKey: 'post-page'
+title: 'HEALING WEB'
+author: 'Anthony Mongoose'
+tags: null
+date: '2022-07-21T10:07:00.000Z'
+groups: 'bcc3'
+attachments:
+  - {"file":"/assets/2022-07-21-healing-web/Healing Web 4.5-1.pdf","fileName":"Healing Web 4.5-1"}
+---
+<html><head></head><body><div dir="ltr"><div class="gmail_default" style="font-family:tahoma,sans-serif;font-size:small;text-align:center">
+<span style="color:rgb(116,27,71)"><font size="6">"PLANDEMIC" Depopulation thru - Virus, Vaccines, Geoengineering  Dr. Judy Mikovits Dr. David Martin <br></font></span></div><div class="gmail_default" style="font-family:tahoma,sans-serif;text-align:center"><span style="color:rgb(0,0,0)"><font size="4"><a href="https://www.brighteon.com/37fc4fe6-44c6-4b75-8b93-57613281881e" target="_blank">https://www.brighteon.com/37fc4fe6-44c6-4b75-8b93-57613281881e</a></font></span></div><div class="gmail_default" style="font-family:tahoma,sans-serif;font-size:small;text-align:center"><span style="color:rgb(116,27,71)"><font size="6">
+<font size="4"><br></font></font></span></div><div class="gmail_default" style="font-family:tahoma,sans-serif;font-size:small;text-align:center"><span style="color:rgb(116,27,71)"><font size="6"><font size="4"><br></font></font></span></div><div class="gmail_default" style="font-family:tahoma,sans-serif;font-size:small;text-align:center"><span style="color:rgb(116,27,71)"><font size="6"><font size="4"><br></font></font></span></div><div class="gmail_default" style="font-family:tahoma,sans-serif;font-size:small;text-align:center"><span style="color:rgb(116,27,71)"><font size="6"><font size="4">"PLANDEMIC" Depopulation Plan Exposed through COVID-19 Virus's, Vaccines and Geoengineering  Dr. Judy Mikovits Dr. David Martin<br></font></font></span></div><div class="gmail_default" style="font-family:tahoma,sans-serif;font-size:small;text-align:center"><br><span style="color:rgb(116,27,71)"></span></div><div class="gmail_default" style="font-family:tahoma,sans-serif;font-size:small;text-align:center"><span style="color:rgb(116,27,71)"><font size="6"><font size="4">Documentary
+ that connects the dots between the media, the medical industry, 
+politics and the financial industry to unmask the shocking conflicts of 
+interests between the key players of the COVID-19 pandemic to depopulate
+ the earth and subdue humanity to economic slavery.<br><br>“You can’t believe a single thing they say<br>about the coronavirus—NOTHING!  That<br>doesn’t mean there’s not a new and deadly<br>bioweapon out there, because there is.”<br>— Intelligence Analyst and Former U.S. Army Officer<br><br>The
+ premiere of PLandemic: Indoctornation, featuring white-collar crime 
+investigator, Dr David Martin, set a world record with 2 million 
+viewers attending the global livestream. The series was smeared by 
+critics as “dangerous conspiracy theory.” US media took unprecedented 
+measures to make the masses look the other way.<br><br>When Dr. Mikovits made the bold claim that COVID-19 was manipulated in a lab, she was smeared as “crazy”.<br></font></font></span></div><div class="gmail_default" style="font-family:tahoma,sans-serif;text-align:center"><font size="4"><span style="color:rgb(116,27,71)"><br></span></font></div><div class="gmail_default" style="font-family:tahoma,sans-serif;font-size:small;text-align:center"><span style="color:rgb(116,27,71)"><font size="6"><br></font></span></div><div class="gmail_default" style="font-family:tahoma,sans-serif;font-size:small;text-align:center"><span style="color:rgb(116,27,71)"><font size="6"><br></font></span></div><div class="gmail_default" style="font-family:tahoma,sans-serif;font-size:small;text-align:center"><br><span style="color:rgb(116,27,71)"></span></div><div class="gmail_default" style="font-family:tahoma,sans-serif;font-size:small;text-align:center"><span style="color:rgb(116,27,71)"><font size="6"><span style="color:rgb(56,118,29)"><font size="4">When
+ Dr. Martin exposed the patents and paper trail proving that that Dr. 
+Fauci was covertly funding dangerous gain of function research at the 
+Wuhan Lab, critics laughed.<br>One year later, they were no longer 
+laughing. Through various independent investigations and accredited 
+studies, every major claim made within the Plandemic series has been 
+validated as accurate. The tide is turning. Truth is emerging.<br>The 
+Plandemic series is now being hailed by many for being first to warn the
+ world  of the agenda to reduce the liberties of citizens through 
+medical tyranny.<br><br>Fair use. <br>Copyright Disclaimer Under Section
+ 107 of the Copyright Act 1976, allowance is made for "fair use" for 
+purposes such as criticism, comment, news reporting, teaching, 
+scholarship, and research. Fair use is a use permitted by copyright 
+statute that might otherwise be infringing. Non-profit, educational or 
+personal use tips the balance in favor of fair use. No copyright 
+infringement intended.<br><br>TO OWNERS OR COPYRIGHT HOLDERS: I do not 
+own these songs or pictures all the songs and pictures belong to their 
+composers and owners. Also I don't make any profit with these video's. I
+ make these Just for my entertainment so other people can enjoy them. If
+ there are any complaints please contact me before taking everything 
+/anything down and ruin the enjoyment of innocent people. If you explain
+ me the problem I will do everything to solve it. Thank you in advance.
+
+</font></span></font></span></div><div class="gmail_default" style="font-family:tahoma,sans-serif;font-size:small;text-align:center"><span style="color:rgb(116,27,71)"><font size="6"><br></font></span>
+</div><br>-- <br><div dir="ltr" data-smartmail="gmail_signature"><div dir="ltr"><div><p style="font-family:tahoma,sans-serif;text-align:center;color:rgb(136,136,136)"><span style="color:rgb(116,27,71)"><font size="4" face="tahoma, sans-serif">I expose the darkness to the light on this website. Don’t let the titles fool you.</font></span></p><p style="font-family:tahoma,sans-serif;text-align:center;color:rgb(136,136,136)"><span style="color:rgb(116,27,71)"><font size="4" face="tahoma, sans-serif">I am not promoting or teaching the mystery religions but exposing them so you can understand how the enemy operates.</font></span></p><p style="color:rgb(34,34,34);font-family:tahoma,sans-serif;text-align:center"><font size="4" face="tahoma, sans-serif"><font color="#741b47">For thus the Lord says to me, “Go, station the lookout, let him report what he sees. (</font><a href="https://www.kingjamesbibleonline.org/Isaiah-21-6/" style="color:rgb(17,85,204)" target="_blank"><font color="#741b47">Isaiah 21:6</font></a><font color="#741b47">)</font></font></p><p style="color:rgb(136,136,136)"><span style="font-family:tahoma,sans-serif;text-align:center"><span style="color:rgb(116,27,71)"></span></span></p><p style="color:rgb(34,34,34);font-family:tahoma,sans-serif;text-align:center"><font size="4" face="tahoma, sans-serif"><font color="#741b47"><font size="4" face="tahoma, sans-serif"><font color="#888888"><font size="4" face="tahoma, sans-serif"><font color="#741b47"><font color="#888888"><span style="color:rgb(0,0,255)"><font size="6"><font size="4">“For there shall arise false Christs, and false prophets, and shall shew great signs and wonders;<span></span></font><b><span style="font-size:small"><font size="4"></font><br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;<font size="4" face="tahoma, sans-serif"><font color="#888888"><font size="4" face="tahoma, sans-serif"><font color="#741b47"><font color="#888888"><span style="color:rgb(0,0,255)"><font size="6"><b><font size="4"><span style="color:rgb(153,0,255)"><span style="font-weight:normal">insomuch that,</span></span><span></span><span><span style="font-weight:normal">&nbsp;</span></span><span style="color:rgb(153,0,255)"><span></span><span><span style="font-weight:normal"></span></span><span style="font-weight:normal">if&nbsp;</span><i><span style="font-weight:normal">it were</span></i><span style="font-weight:normal">&nbsp;possible</span></span><span><span style="color:rgb(153,0,255)"><span style="font-weight:normal">,</span></span></span><span style="color:rgb(153,0,255)"><span><span style="font-weight:normal">&nbsp;</span></span><span style="font-weight:normal">they shall&nbsp;</span><span><span style="font-weight:normal">even&nbsp;</span></span><span style="font-weight:normal">deceive the very elect.</span></span></font></b><font size="4"><span style="color:rgb(153,0,255)">”</span></font><span style="font-size:small">&nbsp;&nbsp;<span style="color:rgb(153,0,255)">&nbsp;</span></span></font><span style="font-weight:normal"><span style="color:rgb(153,0,255)"><font size="4">Matthew 24:24 – (</font><font size="4"><span style="font-size:small"></span>KJV)</font></span></span></span></font></font></font></font></font></span></b></font></span></font></font></font></font></font></font></font></p></div><div style="text-align:center"><font size="4" face="tahoma, sans-serif"><br></font></div><div style="text-align:center"><font size="4" face="tahoma, sans-serif">CHEERS AND BLESSINGS,</font></div><div style="text-align:center"><font size="4" face="tahoma,sans-serif"><br></font></div><div style="text-align:center"><font size="4" face="tahoma,sans-serif">Anthony Mongoose</font></div><div style="text-align:center"><font face="tahoma,sans-serif"><a href="https://amongoose.com" target="_blank"><font size="4">amongoose.com (a red pill website)</font></a><br></font></div></div></div></div>
+</body></html>
