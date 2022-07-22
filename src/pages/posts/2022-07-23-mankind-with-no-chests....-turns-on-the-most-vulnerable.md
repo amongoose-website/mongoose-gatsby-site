@@ -1,0 +1,31 @@
+---
+templateKey: 'post-page'
+title: 'MANKIND WITH NO CHESTS.... TURNS ON THE MOST VULNERABLE'
+author: 'Anthony Mongoose'
+tags: null
+date: '2022-07-23T03:07:00.000Z'
+groups: 'bcc1'
+attachments:
+---
+<html><head></head><body><div dir="ltr"><div class="gmail_default" style="font-family:tahoma,sans-serif;font-size:small;text-align:center">
+
+
+<div id="m_5462885515761393014gmail-container">
+<h1><span style="color:rgb(0,0,255)">Luke 17:2</span></h1><div><span style="color:rgb(153,0,255)"><font size="6">" LUKE IS DESCRIBED IN THE NEW TESTAMENT AS " <u>BELOVED PHYSICIAN</u> "</font></span><br></div>
+<div></div>
+<p><span style="color:rgb(0,0,255)"><font size="6">“<span>It were 
+better for him that a millstone were hanged about his neck, and he cast 
+into the sea, than that he should offend one of these little ones.</span>”
+<br>King James Version (KJV)</font></span></p>
+
+<div id="m_5462885515761393014gmail-infobar"><div id="m_5462885515761393014gmail-viewcounters"><table style="width:175px;margin:0px;padding:0px;line-height:12px" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td colspan="2" height="8" align="center"><br></td></tr><tr><td style="text-align:center" width="90"><br></td><td align="left"><br></td></tr><tr><td style="text-align:center"><br></td><td align="left"><br></td></tr><tr><td style="text-align:center"><br></td><td align="left"><br></td></tr><tr><td align="left"><br></td><td style="text-align:center"><span id="m_5462885515761393014gmail-counter_total"></span><br></td>
+ </tr>
+</tbody></table>
+</div>
+<div id="m_5462885515761393014gmail-badges">
+<div id="m_5462885515761393014gmail-featured_contributor_story"></div><span style="color:rgb(116,27,71)"><font size="6">Covid Relapse - The Highwire with Del Bigtree</font></span>
+</div></div><div id="m_5462885515761393014gmail-story"><div id="m_5462885515761393014gmail-story_wrapper"><div id="m_5462885515761393014gmail-story_column"><div id="m_5462885515761393014gmail-story_info">
+</div></div></div></div></div>
+
+</div><div class="gmail_default" style="font-family:tahoma,sans-serif;font-size:small;text-align:center"><br></div><div class="gmail_default" style="font-family:tahoma,sans-serif;text-align:center"><font size="4"><a href="https://www.bitchute.com/video/1DX5N3276MqE/" target="_blank">https://www.bitchute.com/video/1DX5N3276MqE/</a></font></div><br>-- <br><div dir="ltr" data-smartmail="gmail_signature"><div dir="ltr"><div><p style="font-family:tahoma,sans-serif;text-align:center;color:rgb(136,136,136)"><span style="color:rgb(116,27,71)"><font size="4" face="tahoma, sans-serif">I expose the darkness to the light on this website. Don’t let the titles fool you.</font></span></p><p style="font-family:tahoma,sans-serif;text-align:center;color:rgb(136,136,136)"><span style="color:rgb(116,27,71)"><font size="4" face="tahoma, sans-serif">I am not promoting or teaching the mystery religions but exposing them so you can understand how the enemy operates.</font></span></p><p style="color:rgb(34,34,34);font-family:tahoma,sans-serif;text-align:center"><font size="4" face="tahoma, sans-serif"><font color="#741b47">For thus the Lord says to me, “Go, station the lookout, let him report what he sees. (</font><a href="https://www.kingjamesbibleonline.org/Isaiah-21-6/" style="color:rgb(17,85,204)" target="_blank"><font color="#741b47">Isaiah 21:6</font></a><font color="#741b47">)</font></font></p><p style="color:rgb(136,136,136)"><span style="font-family:tahoma,sans-serif;text-align:center"><span style="color:rgb(116,27,71)"></span></span></p><p style="color:rgb(34,34,34);font-family:tahoma,sans-serif;text-align:center"><font size="4" face="tahoma, sans-serif"><font color="#741b47"><font size="4" face="tahoma, sans-serif"><font color="#888888"><font size="4" face="tahoma, sans-serif"><font color="#741b47"><font color="#888888"><span style="color:rgb(0,0,255)"><font size="6"><font size="4">“For there shall arise false Christs, and false prophets, and shall shew great signs and wonders;<span></span></font><b><span style="font-size:small"><font size="4"></font><br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;<font size="4" face="tahoma, sans-serif"><font color="#888888"><font size="4" face="tahoma, sans-serif"><font color="#741b47"><font color="#888888"><span style="color:rgb(0,0,255)"><font size="6"><b><font size="4"><span style="color:rgb(153,0,255)"><span style="font-weight:normal">insomuch that,</span></span><span></span><span><span style="font-weight:normal">&nbsp;</span></span><span style="color:rgb(153,0,255)"><span></span><span><span style="font-weight:normal"></span></span><span style="font-weight:normal">if&nbsp;</span><i><span style="font-weight:normal">it were</span></i><span style="font-weight:normal">&nbsp;possible</span></span><span><span style="color:rgb(153,0,255)"><span style="font-weight:normal">,</span></span></span><span style="color:rgb(153,0,255)"><span><span style="font-weight:normal">&nbsp;</span></span><span style="font-weight:normal">they shall&nbsp;</span><span><span style="font-weight:normal">even&nbsp;</span></span><span style="font-weight:normal">deceive the very elect.</span></span></font></b><font size="4"><span style="color:rgb(153,0,255)">”</span></font><span style="font-size:small">&nbsp;&nbsp;<span style="color:rgb(153,0,255)">&nbsp;</span></span></font><span style="font-weight:normal"><span style="color:rgb(153,0,255)"><font size="4">Matthew 24:24 – (</font><font size="4"><span style="font-size:small"></span>KJV)</font></span></span></span></font></font></font></font></font></span></b></font></span></font></font></font></font></font></font></font></p></div><div style="text-align:center"><font size="4" face="tahoma, sans-serif"><br></font></div><div style="text-align:center"><font size="4" face="tahoma, sans-serif">CHEERS AND BLESSINGS,</font></div><div style="text-align:center"><font size="4" face="tahoma,sans-serif"><br></font></div><div style="text-align:center"><font size="4" face="tahoma,sans-serif">Anthony Mongoose</font></div><div style="text-align:center"><font face="tahoma,sans-serif"><a href="https://amongoose.com" target="_blank"><font size="4">amongoose.com (a red pill website)</font></a><br></font></div></div></div></div>
+</body></html>
