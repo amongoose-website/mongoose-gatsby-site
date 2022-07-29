@@ -1,6 +1,6 @@
 ---
 templateKey: 'post-page'
-title: 'TO UNDERSTAND OUTSIDE, - YOU'VE GOT TO GO INSIDE'
+title: "TO UNDERSTAND OUTSIDE - YOU'VE GOT TO GO INSIDE"
 author: 'Anthony Mongoose'
 tags: null
 date: '2022-07-14T10:07:00.000Z'

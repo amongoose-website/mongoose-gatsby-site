@@ -1,6 +1,6 @@
 ---
 templateKey: 'post-page'
-title: '"I THINK IT'S THE VACCINES" - DONALD TRUMP SPEAKS'
+title: "'I THINK IT'S THE VACCINES' - DONALD TRUMP SPEAKS"
 author: 'Anthony Mongoose'
 tags: null
 date: '2022-07-18T02:07:00.000Z'
