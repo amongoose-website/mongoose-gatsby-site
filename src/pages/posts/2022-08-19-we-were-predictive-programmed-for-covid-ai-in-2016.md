@@ -1,0 +1,46 @@
+---
+templateKey: 'post-page'
+title: 'WE WERE PREDICTIVE PROGRAMMED FOR COVID-AI IN 2016'
+author: 'Anthony Mongoose'
+tags: null
+date: '2022-08-19T02:08:00.000Z'
+groups: 'bcc1'
+attachments:
+---
+<html><head></head><body><div dir="ltr"><div class="gmail_default" style="font-family:tahoma,sans-serif;font-size:small"><br><div style="text-align:center"><span style="color:rgb(103,78,167)"><font size="6">Wow, the X Files put it all out there already in 2016!</font></span></div><div style="text-align:center"><span style="color:rgb(103,78,167)"><font size="6">&nbsp;Watch first few minutes of this vid!!</font></span></div><div style="text-align:center"><span style="color:rgb(103,78,167)"><font size="6"><br></font></span></div><div style="text-align:center"><span style="color:rgb(103,78,167)"><font size="6">
+</font></span><h1><span style="color:rgb(116,27,71)"><font size="6"><span style="font-weight:normal">Stupidly Demented Adults Syndrome</span></font></span></h1>
+
+</div><div style="text-align:center"><font size="4">&nbsp;<a rel="noopener noreferrer" href="https://dollarvigilante.tv/w/gM3ABrbc7RqepBQhojSqX3" title="https://dollarvigilante.tv/w/gM3ABrbc7RqepBQhojSqX3" aria-label="https://dollarvigilante.tv/w/gM3ABrbc7RqepBQhojSqX3" target="_blank"><span><span dir="auto">https://dollarvigilante.tv/w/gM3ABrbc7RqepBQhojSqX3</span></span></a><br></font></div><div style="text-align:center"><font size="4"><br></font></div><div style="text-align:center"><font size="4"><br></font></div><div style="text-align:center"><font size="4"><br></font></div><div style="text-align:center"><font size="4"><br></font></div><div style="text-align:center"><font size="4">
+</font><div id="m_-4593183740140687914gmail-header">
+    
+        <div>
+         
+            <a href="https://www.geoengineeringwatch.org" target="_blank"><img src="https://www.geoengineeringwatch.org/wp-content/uploads/2012/04/logo2.png" alt="Geoengineering Watch" title="Geoengineering Watch"></a>
+         
+        </div>
+
+
+
+        <div>
+            <div id="m_-4593183740140687914gmail-top-social-profiles">
+
+<a href="https://geoengineeringwatch.org/?feed=rss2" target="_blank"><img src="https://www.geoengineeringwatch.org/wp-content/themes/CarsLine/images/social-profiles/rss.png"></a>
+            </div>
+        </div>
+        
+
+    </div>
+
+</div><div style="text-align:center"><font size="4"><a href="https://www.geoengineeringwatch.org/" target="_blank">https://www.geoengineeringwatch.org/</a></font></div><div style="text-align:center"><font size="4"><br></font></div><div style="text-align:center"><font size="4"><a href="https://mailchi.mp/geoengineeringwatch/geoengineering-watch-global-alert-news-august-13-2022-366?e=3936f25ee7" target="_blank">https://mailchi.mp/geoengineeringwatch/geoengineering-watch-global-alert-news-august-13-2022-366?e=3936f25ee7</a></font></div><div style="text-align:center"><font size="4"><br></font></div><div style="text-align:center"><font size="4"><br></font></div><div style="text-align:center"><font size="4"><br></font></div><div style="text-align:center"><font size="4"><br></font></div><div style="text-align:center"><font size="4"><span style="color:rgb(103,78,167)"><font size="6">EARLIER X-FILES PREDICTIVE PROGRAMMING</font></span> IN MARCH 2001<br></font></div><div style="text-align:center"><font size="4">
+<span style="color:rgb(56,118,29)"><span dir="auto"><span style="color:rgb(116,27,71)">From the X-files Spin-Off "The Lone Gunmen" </span><font size="6"><span style="color:rgb(116,27,71)">first aired in March of 2001 just a few months before 9/11</span>.</font></span></span></font></div><div style="text-align:center"><font size="4">
+</font><h1><span style="color:rgb(116,27,71)"><font size="6"><span style="font-weight:normal">9/11 X-Files - The Lone Gunmen Pilot (Predictive Programming)</span></font></span></h1>
+
+</div><div style="text-align:center"><font size="4"><a href="https://www.youtube.com/watch?v=IIdhoc0PRr8" target="_blank">https://www.youtube.com/watch?v=IIdhoc0PRr8</a></font></div><div style="text-align:center"><font size="4"><br></font></div><div style="text-align:center"><font size="4"><br></font></div><div style="text-align:center"><font size="4"><br></font></div><div style="text-align:center"><font size="4"><br></font></div><div style="text-align:center"><span style="color:rgb(116,27,71)"><font size="6">
+Cultural Marxism Explained:</font></span></div><div style="text-align:center"><br>
+<font size="4"><a rel="noopener noreferrer" href="https://rumble.com/v17naar-cultural-marxism-explained-in-7-minutes.html" title="https://rumble.com/v17naar-cultural-marxism-explained-in-7-minutes.html" aria-label="https://rumble.com/v17naar-cultural-marxism-explained-in-7-minutes.html" target="_blank"><span><span dir="auto">https://rumble.com/v17naar-cultural-marxism-explained-in-7-minutes.html</span></span></a></font>
+
+</div><div style="text-align:center"><br></div><div style="text-align:center"><br></div><div style="text-align:center">
+<h1><span style="color:rgb(116,27,71)"><font size="6"><span style="font-weight:normal">CULTURAL MARXISM - The Corruption of America</span></font></span></h1></div><div style="text-align:center"><font size="4"><a href="https://www.youtube.com/watch?v=gIdBuK7_g3M" target="_blank">https://www.youtube.com/watch?v=gIdBuK7_g3M</a></font></div><font size="4">
+
+</font></div><br>-- <br><div dir="ltr" data-smartmail="gmail_signature"><div dir="ltr"><div><p style="font-family:tahoma,sans-serif;text-align:center;color:rgb(136,136,136)"><span style="color:rgb(116,27,71)"><font size="4" face="tahoma, sans-serif">I expose the darkness to the light on this website. Don’t let the titles fool you.</font></span></p><p style="font-family:tahoma,sans-serif;text-align:center;color:rgb(136,136,136)"><span style="color:rgb(116,27,71)"><font size="4" face="tahoma, sans-serif">I am not promoting or teaching the mystery religions but exposing them so you can understand how the enemy operates.</font></span></p><p style="color:rgb(34,34,34);font-family:tahoma,sans-serif;text-align:center"><font size="4" face="tahoma, sans-serif"><font color="#741b47">For thus the Lord says to me, “Go, station the lookout, let him report what he sees. (</font><a href="https://www.kingjamesbibleonline.org/Isaiah-21-6/" style="color:rgb(17,85,204)" target="_blank"><font color="#741b47">Isaiah 21:6</font></a><font color="#741b47">)</font></font></p><p style="color:rgb(136,136,136)"><span style="font-family:tahoma,sans-serif;text-align:center"><span style="color:rgb(116,27,71)"></span></span></p><p style="color:rgb(34,34,34);font-family:tahoma,sans-serif;text-align:center"><font size="4" face="tahoma, sans-serif"><font color="#741b47"><font size="4" face="tahoma, sans-serif"><font color="#888888"><font size="4" face="tahoma, sans-serif"><font color="#741b47"><font color="#888888"><span style="color:rgb(0,0,255)"><font size="6"><font size="4">“For there shall arise false Christs, and false prophets, and shall shew great signs and wonders;<span></span></font><b><span style="font-size:small"><font size="4"></font><br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;<font size="4" face="tahoma, sans-serif"><font color="#888888"><font size="4" face="tahoma, sans-serif"><font color="#741b47"><font color="#888888"><span style="color:rgb(0,0,255)"><font size="6"><b><font size="4"><span style="color:rgb(153,0,255)"><span style="font-weight:normal">insomuch that,</span></span><span></span><span><span style="font-weight:normal">&nbsp;</span></span><span style="color:rgb(153,0,255)"><span></span><span><span style="font-weight:normal"></span></span><span style="font-weight:normal">if&nbsp;</span><i><span style="font-weight:normal">it were</span></i><span style="font-weight:normal">&nbsp;possible</span></span><span><span style="color:rgb(153,0,255)"><span style="font-weight:normal">,</span></span></span><span style="color:rgb(153,0,255)"><span><span style="font-weight:normal">&nbsp;</span></span><span style="font-weight:normal">they shall&nbsp;</span><span><span style="font-weight:normal">even&nbsp;</span></span><span style="font-weight:normal">deceive the very elect.</span></span></font></b><font size="4"><span style="color:rgb(153,0,255)">”</span></font><span style="font-size:small">&nbsp;&nbsp;<span style="color:rgb(153,0,255)">&nbsp;</span></span></font><span style="font-weight:normal"><span style="color:rgb(153,0,255)"><font size="4">Matthew 24:24 – (</font><font size="4"><span style="font-size:small"></span>KJV)</font></span></span></span></font></font></font></font></font></span></b></font></span></font></font></font></font></font></font></font></p></div><div style="text-align:center"><font size="4" face="tahoma, sans-serif"><br></font></div><div style="text-align:center"><font size="4" face="tahoma, sans-serif">CHEERS AND BLESSINGS,</font></div><div style="text-align:center"><font size="4" face="tahoma,sans-serif"><br></font></div><div style="text-align:center"><font size="4" face="tahoma,sans-serif">Anthony Mongoose</font></div><div style="text-align:center"><font face="tahoma,sans-serif"><a href="https://amongoose.com" target="_blank"><font size="4">amongoose.com (a red pill website)</font></a><br></font></div></div></div></div>
+</body></html>
