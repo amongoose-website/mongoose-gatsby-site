@@ -78,6 +78,22 @@ module.exports = {
         purgeOnly: ['/all.sass'], // applies purging only on the bulma css file
       },
     }, // must be after other CSS plugins
-    'gatsby-plugin-netlify', // make sure to keep it last in the array
+    'gatsby-plugin-netlify', // make sure to keep it last in the array,
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        // You can add multiple tracking ids and a pageview event will be fired for all of them.
+        trackingIds: [
+          "G-WR72V35EZP", // Google Analytics / GA
+        ],
+        // This object is used for configuration specific to this plugin
+        pluginConfig: {
+          // Puts tracking script in the head instead of the body
+          head: false,
+          // Setting this parameter is also optional
+          respectDNT: true,
+        },
+      }
+    }
   ],
 }
