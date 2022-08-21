@@ -1,6 +1,6 @@
 ---
 templateKey: 'post-page'
-title: 'THE POLITICAL PLANS OF THE 60'S FOR THIS PERIOD'
+title: "THE POLITICAL PLANS OF THE 60'S FOR THIS PERIOD"
 author: 'Anthony Mongoose'
 tags: null
 date: '2022-08-19T02:08:00.000Z'

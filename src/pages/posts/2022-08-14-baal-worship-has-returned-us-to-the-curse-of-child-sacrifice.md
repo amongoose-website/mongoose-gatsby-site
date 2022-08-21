@@ -1,6 +1,6 @@
 ---
 templateKey: 'post-page'
-title: 'BA'AL WORSHIP HAS RETURNED US TO THE CURSE OF CHILD SACRIFICE'
+title: "BA'AL WORSHIP HAS RETURNED US TO THE CURSE OF CHILD SACRIFICE"
 author: 'Anthony Mongoose'
 tags: null
 date: '2022-08-14T04:08:00.000Z'
