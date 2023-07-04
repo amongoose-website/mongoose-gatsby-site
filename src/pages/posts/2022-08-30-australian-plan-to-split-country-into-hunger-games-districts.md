@@ -1,12 +1,13 @@
 ---
-templateKey: 'post-page'
-title: 'Australian Plan to Split Country Into Hunger Games Districts'
-author: 'Anthony Mongoose'
+templateKey: "post-page"
+title: "Australian Plan to Split Country Into Hunger Games Districts"
+author: "Anthony Mongoose"
 tags: null
-date: '2022-08-30T02:08:00.000Z'
-groups: 'bcc1'
+date: "2022-08-30T02:08:00.000Z"
+groups: "bcc1"
 attachments:
 ---
+
 <html><head></head><body><div dir="ltr"><div class="gmail_default" style="font-family:tahoma,sans-serif;font-size:small;text-align:center">
 <h1 id="m_7520395843467028417m_-150410178747813966m_-1793492792508552814m_6226041251450549581m_-8575946476872108566m_-5404229647453489032m_-2605831125185440453gmail-video-title">
 </h1><h1>
