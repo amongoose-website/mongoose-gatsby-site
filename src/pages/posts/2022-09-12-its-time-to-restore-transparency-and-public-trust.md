@@ -1,12 +1,13 @@
 ---
-templateKey: 'post-page'
-title: 'It's Time To Restore Transparency and Public Trust'
-author: 'Anthony Mongoose'
+templateKey: "post-page"
+title: "It's Time To Restore Transparency and Public Trust"
+author: "Anthony Mongoose"
 tags: null
-date: '2022-09-12T12:09:00.000Z'
-groups: 'bcc1'
+date: "2022-09-12T12:09:00.000Z"
+groups: "bcc1"
 attachments:
 ---
+
 <html><head></head><body><div dir="ltr"><div class="gmail_default" style="font-family:tahoma,sans-serif;font-size:small;text-align:center">
 <h3 style="text-align:center"><span style="color:rgb(103,78,167)"><font size="6">It's Time To Restore Transparency and Public Trust</font></span></h3>
 
