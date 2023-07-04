@@ -1,12 +1,13 @@
 ---
 templateKey: 'post-page'
-title: 'BA'AL WORSHIP REQUIRES CHILD SACRIFICE'
+title: 'BA\'AL WORSHIP REQUIRES CHILD SACRIFICE'
 author: 'Anthony Mongoose'
 tags: null
 date: '2022-09-02T03:09:00.000Z'
 groups: 'bcc1'
 attachments:
 ---
+
 <html><head></head><body><div dir="ltr"><div class="gmail_default" style="font-family:tahoma,sans-serif;text-align:center"><span style="color:rgb(116,27,71)"><font size="4"><font size="6"><b>THE EVIL CONTINUES</b></font></font></span></div><div class="gmail_default" style="font-family:tahoma,sans-serif;text-align:center"><span style="color:rgb(116,27,71)"><font size="4"><font size="6"><b>BA'AL'S VEIL IS BEING LIFTED</b></font></font></span></div><div class="gmail_default" style="font-family:tahoma,sans-serif;text-align:center"><span style="color:rgb(116,27,71)"><font size="4"><font size="6"><b>THE SPIRIT OF ANTICHRIST IS HERE, WAITING TO BE REVEALED<br></b></font></font></span></div><div class="gmail_default" style="font-family:tahoma,sans-serif;text-align:center"><span style="color:rgb(116,27,71)"><font size="4"><font size="6"><b>NOT LONG NOW !<br></b></font></font></span></div><div class="gmail_default" style="font-family:tahoma,sans-serif;text-align:center"><font size="4"><span style="color:rgb(103,78,167)"><font size="6"><b><br></b></font></span></font></div><div class="gmail_default" style="font-family:tahoma,sans-serif;text-align:center"><font size="4"><span style="color:rgb(103,78,167)"><font size="6"><b>
 </b></font></span></font><div class="gmail_default" style="font-family:tahoma,sans-serif;font-size:small;text-align:center">
 <h1><font size="6"><span style="color:rgb(103,78,167)">COMMONWEALTH GAMES: No One Showed You This!! PT. 1</span></font></h1>
@@ -18,6 +19,7 @@ attachments:
 <font size="4"><a href="https://www.youtube.com/watch?v=8Xr7bONkj_k" target="_blank">https://www.youtube.com/watch?v=8Xr7bONkj_k</a><br></font></div><div class="gmail_default" style="font-family:tahoma,sans-serif;font-size:small;text-align:center"><font size="4">
 
 <br></font></div><div class="gmail_default" style="font-family:tahoma,sans-serif;font-size:small;text-align:center"><br></div><div class="gmail_default" style="font-family:tahoma,sans-serif;font-size:small;text-align:center"><br></div><div class="gmail_default" style="font-family:tahoma,sans-serif;font-size:small;text-align:center">
+
 <div><font size="6"><b><span style="color:rgb(103,78,167)">WE WERE WARNED<span class="gmail_default" style="font-family:tahoma,sans-serif"> 10 YEARS AGO</span></span></b><span style="color:rgb(116,27,71)"><b><span class="gmail_default" style="font-family:tahoma,sans-serif">&nbsp; - -</span><span style="color:rgb(103,78,167)">THEY ARE COMING FOR OUR CHILDREN</span></b></span></font></div><div><span style="color:rgb(116,27,71)"><font size="6"><b><span style="color:rgb(103,78,167)"><span class="gmail_default" style="font-family:tahoma,sans-serif">UP TO 5 BILLION PEOPLE WATCHED THE WORLD BEING PREPARED FOR CORONA SCAM</span>&nbsp;<span class="gmail_default" style="font-family:tahoma,sans-serif">IN 2022</span></span><br></b></font></span></div><div><div class="gmail_default" style="font-family:tahoma,sans-serif;text-align:center"><h1><span style="color:rgb(103,78,167)"><font size="6">Coronavirus Illuminati Ritual, 2012 Olympics Opening Ceremony in Britain</font></span></h1>
 </div><div class="gmail_default" style="font-family:tahoma,sans-serif;text-align:center"><span style="color:rgb(0,0,0)"><font size="4"><a href="https://www.youtube.com/watch?v=pXUM-_9zZ_w" target="_blank">https://www.youtube.com/watch?v=pXUM-_9zZ_w</a><br></font></span></div><div class="gmail_default" style="font-family:tahoma,sans-serif;text-align:center"><span style="color:rgb(0,0,0)"><font size="4"><br></font></span></div><div class="gmail_default" style="font-family:tahoma,sans-serif;text-align:center"><span style="color:rgb(0,0,0)"><font size="4"><br></font></span></div><div class="gmail_default" style="font-family:tahoma,sans-serif;text-align:center"><span style="color:rgb(0,0,0)"><font size="4">
 </font></span><div class="gmail_default" style="font-family:tahoma,sans-serif;text-align:center">
