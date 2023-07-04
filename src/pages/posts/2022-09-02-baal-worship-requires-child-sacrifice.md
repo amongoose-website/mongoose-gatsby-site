@@ -1,10 +1,10 @@
 ---
-templateKey: 'post-page'
-title: 'BA\'AL WORSHIP REQUIRES CHILD SACRIFICE'
-author: 'Anthony Mongoose'
+templateKey: "post-page"
+title: "BA'AL WORSHIP REQUIRES CHILD SACRIFICE"
+author: "Anthony Mongoose"
 tags: null
-date: '2022-09-02T03:09:00.000Z'
-groups: 'bcc1'
+date: "2022-09-02T03:09:00.000Z"
+groups: "bcc1"
 attachments:
 ---
 
